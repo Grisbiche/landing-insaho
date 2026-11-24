@@ -1,0 +1,29 @@
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/global.css">
+        <title>Authentification</title>
+        <link rel="stylesheet" href="/css/login.css">
+    </head>
+    <body>
+        <div class="container-center container-screen flex-column">
+    <img src="assets/agence-mmc-svg.svg" alt="Logo de l'agence MMC" class="mmc-logo">
+    <div class="login-card">
+        <form method="post" class="flex-column gap-16">
+            <div class="flex-column gap-8">
+                <label for="username-input">Identifiant</label>
+                <input id="username-input" class="input" type="text" name="username" placeholder="Entrez votre identifiant" autocomplete="username" />
+            </div>
+            <div class="flex-column gap-8">
+                <label for="username-input">Mot de passe</label>
+                <input id="username-input" class="input" type="password" name="password" placeholder="Entrez votre mot de passe"/>
+                <a class="text-xs text-tertiary" href="/forgot-password">Mot de passe oublié ?</a>
+            </div>
+                        <button class="button" type="submit">Envoyer</button>
+        </form>
+    </div>
+</div>
+    </body>
+</html>

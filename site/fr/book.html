@@ -1,0 +1,2298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="referrer" content="origin-when-crossorigin">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width" />
+
+		<link rel="preconnect" href="https://code.jquery.com">
+	
+	<link rel="preconnect" href="https://cdn.jsdelivr.net">
+		<link rel="preload" as="script" href="https://code.jquery.com/jquery-3.7.1.min.js">
+		<link rel="preload" as="script" href="/assets/dist/public.00.essentials.js">
+		<link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js">
+		<link rel="preload" as="script" href="/assets/hapi/dist/public.01.extra.js">
+		<link rel="preload" as="script" href="/assets/dist/public.10.bxslider.js">
+		<link rel="preload" as="script" href="/assets/dist/public.10.fancybox.js">
+		<link rel="preload" as="script" href="/assets/dist/public.10.vegas.js">
+		<link rel="preload" as="script" href="/assets/hapi/helpers-js.js">
+		<link rel="preload" as="script" href="/assets/dist/public.20.hapi-core.js">
+		<link rel="preload" as="script" href="/assets/dist/public.99.runner.js">
+	
+	<link rel="icon" href="/favicon.ico" sizes="32x32">
+	<link rel="apple-touch-icon" href="/media/e32d4e70-820a-48bd-9b8a-a193fe00c140/insaho-png-009__96ff198c.png"><!-- 180×180 -->
+	<link rel="manifest" href="/fr/manifest.webmanifest.html">
+	<script src="/assets/vendors/klaro-gdpr/klaro_warmup.js"></script>
+<title>Insaho v2</title>
+<link rel="canonical" href="https://www.insaho.fr/fr/book.html" />
+<script>window.dataLayer = window.dataLayer || [];</script><meta name="twitter:card" content="summary" />
+	<script type="application/ld+json">[
+    {
+        "@context": "https:\/\/schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/www.insaho.fr\/",
+        "name": "Insaho v2"
+    },
+    {
+        "@context": "https:\/\/schema.org",
+        "@type": "Hotel",
+        "name": "Insaho v2",
+        "telephone": [
+            "+33247797491"
+        ],
+        "email": "exemple-de-mail@mail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "16, Avenue Exemplaire",
+            "addressLocality": "Exemple-les-Bains",
+            "postalCode": "12345",
+            "addressCountry": "France"
+        }
+    }
+]</script>
+			<script src="/assets/vendors/klaro-gdpr/config.js"></script>
+		<script>klaroConfig.privacyPolicy = ""; klaroConfig.theme = 'lite';</script>
+		<script src="/assets/vendors/klaro-gdpr/klaro.js"></script>
+		<script>setTimeout(klaro.getManager,2000);</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async type="opt-in" data-type="application/javascript" data-name="app_analytics" data-src="https://www.googletagmanager.com/gtag/js?id=G-J54488MS0G"></script>
+<script type="opt-in" data-type="application/javascript" data-name="app_analytics" >
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+	gtag('config', 'G-J54488MS0G', { 'anonymize_ip': true });
+	</script>
+
+		<!-- Google Tag Manager -->
+<script type="opt-in" data-type="application/javascript" data-name="app_marketing" >
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-N6FBF35S');
+</script>
+<!-- End Google Tag Manager -->
+		
+	
+	<!--CRW-OG-IMAGES:RM-->
+
+	    <script>
+    var ms_ie = false;
+    var ua = window.navigator.userAgent;
+    var old_ie = ua.indexOf('MSIE ');
+    var new_ie = ua.indexOf('Trident/');
+    if ((old_ie > -1) || (new_ie > -1)) {
+        ms_ie = true;
+    }
+
+    var ENV_ADMIN= false;
+    var ENV_HID= "1133";
+    var HOST = "/";
+    var BASEPATH = "/";
+    var APPS_URL = "/";
+    // no longer read by public.js; kept for the copies of public.js from 10/11/2026 still cached by browsers and Cloudflare
+    var ENV_ASSETS_LOADER = "/assets/hapi/dist";
+    var ENV_PAGE= "book";
+    var ENV_PARAM= "";
+    var ENV_LNG= "fr";
+    var IMAGE_CUSTOM_QUALITY= "80";
+    var IMAGE_LAZY_MODE= "blur";
+    var ENV_WEBP = false;
+    var ENV_MOBILE = false;
+    var ENV_TABLET = false;
+    var ENV_IE= 0;
+
+    var ENV_GOOGLE_UAC = "G-J54488MS0G";
+    var ENV_MATOMO_URL = "";
+    var ENV_MATOMO_SID = "";
+
+    var ENV_ID= "";
+    var ENV_DEV= false;
+    var ENV_DEBUG= false;
+
+    var SKIN_map_cluster_lg = "";
+    var SKIN_map_cluster_md = "";
+    var SKIN_map_cluster_sm = "";
+
+    var SKIN_map_cluster_lg_text = "";
+    var SKIN_map_cluster_md_text = "";
+    var SKIN_map_cluster_sm_text = "";
+
+    var SKIN_map_cluster_lg_icon = "";
+    var SKIN_map_cluster_md_icon = "";
+    var SKIN_map_cluster_sm_icon = "";
+
+    var slider_offres;
+    var cookiesDirectiveSettings = {
+        message : "Ce site utilise des cookies pour vous garantir la meilleure expérience. En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies.",
+        closeMessage : "Ne plus afficher ce message"
+    };
+
+    var ENV_CONFIG = {
+    	hid: 1133,
+        rgpd_allow_video: false,
+    	country_code: "FR",
+    }
+
+    // detect if the current page is called in iframe from the same website
+    var ENV_IFRAME = top.frames.length!=0 && top.frames[0].location.host==document.location.host;
+    if(ENV_IFRAME)
+    {
+        document.querySelector('html').classList.add('in-frame')
+    }
+    </script>
+    
+	<style>
+	/*
+	Prevent content flickering without CSS
+	*/
+	body.loading { opacity:0;  }
+	</style>
+
+	<!--HAPI-MOVE-TO-HEAD:CSS-->
+	<!--HAPI-MOVE-TO-HEAD:JS-->
+<script src="/assets/hapi/dist/hapi-video.js" async defer></script>
+
+	</head>
+<body
+	id="page-book" lang="fr"
+	data-page-id=""
+	data-page-code=""
+	data-page-tags=""
+	data-page-slug=""
+	data-page_iframe="0"
+	
+	
+	
+	data-lng="fr"
+	data-terminal="desktop"
+	data-header="false"
+	data-book-in-frame="0"
+	class="loading frontend  "
+	data-scrollpad="130"
+	data-scrollpad-tablet="0"
+	data-scrollpad-mobile="60"
+	>
+		<div class="hapi_content_wrapper">
+		<header id="page_header" class="hide-in-frame">
+			
+			
+		</header>
+		<main id="content_container">
+			<div id="content">
+						<div class="fullscreen_content_panel">
+			<table height="100%" width="100%"><tr><td style="vertical-align:middle;text-align:center;"><p>Unable to connect the booking engine!</p></td></tr></table>
+		</div>
+		
+
+
+			</div>
+		</main>
+		<footer id="page_footer" class="hide-in-frame">
+			 
+		</footer>
+	</div>
+		<!-- FSPANEL CONTENT -->
+	<div class="fsPanel" data-status="loading" data-iframe="false" id="fspanel-2323" data-k="2323" data-code="popin-de-navigation" data-ctx-type="" data-ctx-code="">
+	<div class="fsPanel-backdrop" onclick=""></div>
+	<div class="fsPanel-content-panel">
+		<div
+			class="fsPanel-trigger"
+			data-align="none"
+			>
+			<i class="far fa-times"></i>
+		</div>
+		<div
+			class="fsPanel-content-wrapper"
+			data-align="center,left"
+			data-mobile-align="center,left"
+			>
+			<div class="fsPanel-content">
+				<div class="fsPanel-trigger">
+	<i class="far fa-times"></i>
+</div>
+
+<a  href="">
+	<img src="/media/e89951b3-2942-40ab-a387-226211437d8e/insaho-png-001__cd266bbf.webp" alt="logo-insaho">
+</a>
+	
+<div class="navigation-du-bas">
+	<div id="mod_navbar--navigation-injection-de-la-navigation-du-bas-liste" class="module_wrapper" code="navigation-injection-de-la-navigation-du-bas-liste" module="navbar" template="list" skin="_default">				
+				<ul><li data-type="default" data-visible="both" data-dropdown="true"><a  id="" class="formations trigger-overlay "  href="/fr/page/formations-hospitalite.19474.html"> Formations <i class="navbar-icon-dropdown fas fa-caret-down"></i></a><ul><li><a  id="" class="developper-vos-competences "  href="/fr/page/formations-hospitalite.19474.html#;filter=filtre-formation-types:formations-courtes">  Formations courtes  <small> Développer vos compétences </small> </a></li><li><a  id="" class="apprendre-un-metier "  href="/fr/page/formations-hospitalite.22463.html#;filter=filtre-formation-types:formations-certifiantes"> Formations certifiantes <small> Apprendre un métier </small> </a></li></ul></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class="capsules "  href="https://insahocaps.fr/"> Capsules </a></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class=" "  href="/fr/page/hackathon-et-ateliers.28229.html"> Hackathon </a></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class=" "  href="/fr/page/coaching-sur-mesure.27649.html"> Coaching </a></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class="a-propos "  href="/fr/page/a-propos.27551.html"> Notre vision </a></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class="nos-formateurs "  href="/fr/page/nos-formateurs.27641.html"> Le collectif </a></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class="ressources "  href="/fr/page/ressources-hospitalite.19478.html"> Ressources </a></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class="contact "  href="/fr/page/nous-contacter.19479.html"> Contact </a></li><li data-type="default" data-visible="both" data-dropdown="true"><a  id="" class="visible-au-scroll espace-apprenant-1 "  href="/#!row-prochaines-sessions"><i class="navbar-icon-prepend far fa-bell"></i>  <i class="navbar-icon-dropdown fas fa-caret-down"></i></a><ul><li><a  id="" class=" "  href="/#!row-prochaines-sessions"> Prochaines sessions </a></li></ul></li><li data-type="default" data-visible="both" data-dropdown="true"><a  id="" class="visible-au-scroll rendez-vous "  href="https://calendly.com/lgoder-insaho/30min"><i class="navbar-icon-prepend fal fa-calendar"></i> Prendre RDV <i class="navbar-icon-dropdown fas fa-caret-down"></i></a><ul><li><a  id="" class=" "  href="https://calendly.com/lgoder-insaho/30min"> Prendre rendez-vous </a></li></ul></li><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class="contact "  href="/fr/page/nous-contacter.19479.html"><i class="navbar-icon-prepend far fa-envelope"></i> Contact </a></li></ul></div>
+</div>
+
+<div class="navigation-du-haut">
+	<div id="mod_navbar--navigation-injection-de-la-navigation-du-haut-liste" class="module_wrapper" code="navigation-injection-de-la-navigation-du-haut-liste" module="navbar" template="list" skin="_default"><ul><li data-type="default" data-visible="both" data-dropdown="false"><a  id="" class="espace-apprenant " target="_blank" href="https://login.keyro.fr/auth/signin"><i class="navbar-icon-prepend far fa-user"></i> Espace apprenant </a></li><li data-type="default" data-visible="both" data-dropdown="false"><a id="" class="telephone "  href="tel:+33247797491"><i class="navbar-icon-prepend fal fa-phone"></i> +33 2 47 79 74 91 </a></li><li data-type="default" data-visible="both" data-dropdown="true"><a  id="" class="contactez-nous "  href="/#!row-prochaines-sessions"> Contactez-nous <i class="navbar-icon-dropdown fas fa-caret-down"></i></a><ul><li><a id="" class="nous-appeler "  href="tel:+33247797491"> Nous appeler au <br> +33 2 47 79 74 91 </a></li><li><a  id="" class="prendre-rendez-vous " target="_blank" href="https://calendly.com/lgoder-insaho/30min"> Prendre un rendez-vous </a></li></ul></li></ul></div>
+</div>			</div>
+		</div>
+	</div>
+</div>
+<style>
+/* ---------- MIXINS_START ---------- */
+/* COLORS */
+/* COLORPACK / START */
+.ckBg_brand-primary-color {
+  background: #5b35ca;
+  color: #333;
+}
+.ckColor_brand-primary-color {
+  color: #5b35ca;
+}
+.ckBg_brand-secondary-color {
+  background: #f6d81f;
+  color: #333;
+}
+.ckColor_brand-secondary-color {
+  color: #f6d81f;
+}
+.ckBg_brand-tertiary-color {
+  background: #00a8a8;
+  color: #ddd;
+}
+.ckColor_brand-tertiary-color {
+  color: #00a8a8;
+}
+.ckBg_brand-primary-color-medium {
+  background: #ded7f5;
+  color: #333;
+}
+.ckColor_brand-primary-color-medium {
+  color: #ded7f5;
+}
+.ckBg_brand-primary-color-low {
+  background: #f2f0fb;
+  color: #333;
+}
+.ckColor_brand-primary-color-low {
+  color: #f2f0fb;
+}
+.ckBg_brand-secondary-color-low {
+  background: #faf4db;
+  color: #333;
+}
+.ckColor_brand-secondary-color-low {
+  color: #faf4db;
+}
+.ckBg_brand-tertiary-color-medium {
+  background: #d2eded;
+  color: #333;
+}
+.ckColor_brand-tertiary-color-medium {
+  color: #d2eded;
+}
+.ckBg_brand-tertiary-color-low {
+  background: #f1f8f8;
+  color: #333;
+}
+.ckColor_brand-tertiary-color-low {
+  color: #f1f8f8;
+}
+.ckBg_base-background {
+  background: white;
+  color: #333;
+}
+.ckColor_base-background {
+  color: white;
+}
+.ckBg_base-color-high {
+  background: #313131;
+  color: #ddd;
+}
+.ckColor_base-color-high {
+  color: #313131;
+}
+.ckBg_base-color-medium {
+  background: #616161;
+  color: #ddd;
+}
+.ckColor_base-color-medium {
+  color: #616161;
+}
+.ckBg_base-color-low {
+  background: #919191;
+  color: #333;
+}
+.ckColor_base-color-low {
+  color: #919191;
+}
+.ckBg_base-color-very-low {
+  background: #c2c2c2;
+  color: #333;
+}
+.ckColor_base-color-very-low {
+  color: #c2c2c2;
+}
+.ckBg_base-color-very-very-low {
+  background: #e4e4e4;
+  color: #333;
+}
+.ckColor_base-color-very-very-low {
+  color: #e4e4e4;
+}
+/* COLORPACK / END */
+body {
+  --border-radius: 12px;
+  --custom-padding: 80px;
+}
+@media screen and (max-width: 620px) {
+  body {
+    --custom-padding: 20px;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px #919191;
+  background: #fff;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: 100px;
+  background-color: #5b35ca;
+  background-clip: content-box;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f6d81f;
+}
+/* ---------- MIXINS_END ------------ */
+.debug {
+  content-animation: fade;
+  animation: fade;
+}
+.debug2 {
+  content-animation: fade;
+  animation: fade;
+}
+.fsPanel#fspanel-2323 .fsPanel-backdrop {
+  background-color: rgba(92, 54, 202, 0.32);
+  opacity: 0;
+  transform: translate(0, 0);
+  transition: opacity ease-in-out 0.5s;
+}
+.fsPanel#fspanel-2323.active .fsPanel-backdrop {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.fsPanel#fspanel-2323 .fsPanel-trigger {
+  cursor: pointer;
+}
+.fsPanel#fspanel-2323 > .fsPanel-content-panel > .fsPanel-trigger {
+  position: absolute;
+  z-index: 10;
+}
+.fsPanel#fspanel-2323 > .fsPanel-content-panel > .fsPanel-trigger i {
+  display: inline-block;
+  font-style: normal;
+  font-size: 2em;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
+  text-align: center;
+}
+.fsPanel#fspanel-2323 > .fsPanel-content-panel > .fsPanel-trigger[data-align="none"] {
+  display: none;
+}
+.fsPanel#fspanel-2323 > .fsPanel-content-panel > .fsPanel-trigger[data-align="topleft"] {
+  display: block;
+  top: 0em;
+  left: 0em;
+  bottom: unset;
+  right: unset;
+}
+.fsPanel#fspanel-2323 > .fsPanel-content-panel > .fsPanel-trigger[data-align="topright"] {
+  display: block;
+  top: 0em;
+  right: 0em;
+  bottom: unset;
+  left: unset;
+}
+.fsPanel#fspanel-2323 > .fsPanel-content-panel > .fsPanel-trigger[data-align="bottomleft"] {
+  display: block;
+  bottom: 0em;
+  left: 0em;
+  top: unset;
+  right: unset;
+}
+.fsPanel#fspanel-2323 > .fsPanel-content-panel > .fsPanel-trigger[data-align="bottomright"] {
+  display: block;
+  bottom: 0em;
+  right: 0em;
+  top: unset;
+  left: unset;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translate(0, 0);
+  transition: opacity ease-in-out 0.5s;
+}
+.fsPanel#fspanel-2323.active .fsPanel-content-panel {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper {
+  width: calc(45%);
+  max-width: calc(500px - 0em);
+  min-height: calc(100% - 0em);
+  max-height: calc(100% - 0em);
+  background-color: #5b35ca;
+  color: #ffffff;
+  padding-top: 0em;
+  padding-right: 0em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+  margin-top: 0em;
+  margin-right: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="center,center"] {
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 0em), calc(-50% - 0em));
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="center,left"] {
+  top: 50%;
+  left: 0;
+  transform: translateY(calc(-50% - 0em));
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="center,right"] {
+  top: 50%;
+  right: 0;
+  transform: translateY(calc(-50% - 0em));
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="top,center"] {
+  top: 0;
+  left: 50%;
+  transform: translateX(calc(-50% - 0em));
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="bottom,center"] {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(calc(-50% - 0em));
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="top,left"] {
+  top: 0;
+  left: 0;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="top,right"] {
+  top: 0;
+  right: 0;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="bottom,left"] {
+  bottom: 0;
+  left: 0;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-align="bottom,right"] {
+  bottom: 0;
+  right: 0;
+}
+@media (-ms-high-contrast: none) {
+  .fsPanel#fspanel-2323 {
+    /* IE10 */
+    /* IE11 */
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper {
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    transform: unset !important;
+  }
+  .fsPanel#fspanel-2323 *::-ms-backdrop, .fsPanel#fspanel-2323 .fsPanel-content-wrapper {
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    transform: unset !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper {
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    width: calc(65%);
+    max-width: calc(100% - 0em);
+    min-height: calc(100% - 0em);
+    max-height: calc(100% - 0em);
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align] {
+    top: initial;
+    bottom: initial;
+    left: initial;
+    right: initial;
+    transform: none;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="center,center"] {
+    top: 50%;
+    left: 50%;
+    transform: translate(calc(-50% - 0em), calc(-50% - 0em));
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="center,left"] {
+    top: 50%;
+    left: 0;
+    transform: translateY(calc(-50% - 0em));
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="center,right"] {
+    top: 50%;
+    right: 0;
+    transform: translateY(calc(-50% - 0em));
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="top,center"] {
+    top: 0;
+    left: 50%;
+    transform: translateX(calc(-50% - 0em));
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="bottom,center"] {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(calc(-50% - 0em));
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="top,left"] {
+    top: 0;
+    left: 0;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="top,right"] {
+    top: 0;
+    right: 0;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="bottom,left"] {
+    bottom: 0;
+    left: 0;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper[data-mobile-align="bottom,right"] {
+    bottom: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 980px) and (-ms-high-contrast: none) {
+  .fsPanel#fspanel-2323 {
+    /* IE10 */
+    /* IE11 */
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper {
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    transform: unset !important;
+  }
+  .fsPanel#fspanel-2323 *::-ms-backdrop, .fsPanel#fspanel-2323 .fsPanel-content-wrapper {
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    transform: unset !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .fsPanel#fspanel-2323 .fsPanel-content-wrapper {
+    width: calc(100%);
+    min-height: calc(100% - 0em);
+  }
+}
+.fsPanel#fspanel-2323 .fsPanel-content a {
+  color: #ffffff;
+}
+.fsPanel#fspanel-2323 .fsPanel-content a:hover {
+  color: #f6d81f;
+}
+.fsPanel#fspanel-2323 .fsPanel-content p.surtitre, .fsPanel#fspanel-2323 .fsPanel-content p, .fsPanel#fspanel-2323 .fsPanel-content ul, .fsPanel#fspanel-2323 .fsPanel-content ol {
+  color: #ffffff;
+  font-size: 1em;
+}
+.fsPanel#fspanel-2323 .fsPanel-content p.surtitre ul, .fsPanel#fspanel-2323 .fsPanel-content p.surtitre p, .fsPanel#fspanel-2323 .fsPanel-content p.surtitre ol, .fsPanel#fspanel-2323 .fsPanel-content p ul, .fsPanel#fspanel-2323 .fsPanel-content p p, .fsPanel#fspanel-2323 .fsPanel-content p ol, .fsPanel#fspanel-2323 .fsPanel-content ul ul, .fsPanel#fspanel-2323 .fsPanel-content ul p, .fsPanel#fspanel-2323 .fsPanel-content ul ol, .fsPanel#fspanel-2323 .fsPanel-content ol ul, .fsPanel#fspanel-2323 .fsPanel-content ol p, .fsPanel#fspanel-2323 .fsPanel-content ol ol {
+  font-size: 1em;
+}
+.fsPanel#fspanel-2323 .fsPanel-content p.surtitre {
+  font-size: 0.7em;
+}
+.fsPanel#fspanel-2323 .fsPanel-content h1, .fsPanel#fspanel-2323 .fsPanel-content .h1, .fsPanel#fspanel-2323 .fsPanel-content h2, .fsPanel#fspanel-2323 .fsPanel-content .h2, .fsPanel#fspanel-2323 .fsPanel-content h3, .fsPanel#fspanel-2323 .fsPanel-content .h3, .fsPanel#fspanel-2323 .fsPanel-content h4, .fsPanel#fspanel-2323 .fsPanel-content .h4, .fsPanel#fspanel-2323 .fsPanel-content h5, .fsPanel#fspanel-2323 .fsPanel-content .h5, .fsPanel#fspanel-2323 .fsPanel-content h6, .fsPanel#fspanel-2323 .fsPanel-content .h6 {
+  color: #ffffff;
+  font-size: 1em;
+}
+@media screen and (max-width: 980px) {
+  .fsPanel#fspanel-2323 .fsPanel-content p.surtitre, .fsPanel#fspanel-2323 .fsPanel-content p, .fsPanel#fspanel-2323 .fsPanel-content ul, .fsPanel#fspanel-2323 .fsPanel-content ol {
+    font-size: 1em;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content p.surtitre ul, .fsPanel#fspanel-2323 .fsPanel-content p.surtitre p, .fsPanel#fspanel-2323 .fsPanel-content p.surtitre ol, .fsPanel#fspanel-2323 .fsPanel-content p ul, .fsPanel#fspanel-2323 .fsPanel-content p p, .fsPanel#fspanel-2323 .fsPanel-content p ol, .fsPanel#fspanel-2323 .fsPanel-content ul ul, .fsPanel#fspanel-2323 .fsPanel-content ul p, .fsPanel#fspanel-2323 .fsPanel-content ul ol, .fsPanel#fspanel-2323 .fsPanel-content ol ul, .fsPanel#fspanel-2323 .fsPanel-content ol p, .fsPanel#fspanel-2323 .fsPanel-content ol ol {
+    font-size: 1em;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content p.surtitre {
+    font-size: 0.7em;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content h1, .fsPanel#fspanel-2323 .fsPanel-content .h1, .fsPanel#fspanel-2323 .fsPanel-content h2, .fsPanel#fspanel-2323 .fsPanel-content .h2, .fsPanel#fspanel-2323 .fsPanel-content h3, .fsPanel#fspanel-2323 .fsPanel-content .h3, .fsPanel#fspanel-2323 .fsPanel-content h4, .fsPanel#fspanel-2323 .fsPanel-content .h4, .fsPanel#fspanel-2323 .fsPanel-content h5, .fsPanel#fspanel-2323 .fsPanel-content .h5, .fsPanel#fspanel-2323 .fsPanel-content h6, .fsPanel#fspanel-2323 .fsPanel-content .h6 {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 640px) {
+  .fsPanel#fspanel-2323 .fsPanel-content p.surtitre, .fsPanel#fspanel-2323 .fsPanel-content p, .fsPanel#fspanel-2323 .fsPanel-content ul, .fsPanel#fspanel-2323 .fsPanel-content ol {
+    font-size: 1em;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content p.surtitre ul, .fsPanel#fspanel-2323 .fsPanel-content p.surtitre p, .fsPanel#fspanel-2323 .fsPanel-content p.surtitre ol, .fsPanel#fspanel-2323 .fsPanel-content p ul, .fsPanel#fspanel-2323 .fsPanel-content p p, .fsPanel#fspanel-2323 .fsPanel-content p ol, .fsPanel#fspanel-2323 .fsPanel-content ul ul, .fsPanel#fspanel-2323 .fsPanel-content ul p, .fsPanel#fspanel-2323 .fsPanel-content ul ol, .fsPanel#fspanel-2323 .fsPanel-content ol ul, .fsPanel#fspanel-2323 .fsPanel-content ol p, .fsPanel#fspanel-2323 .fsPanel-content ol ol {
+    font-size: 1em;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content p.surtitre {
+    font-size: 0.7em;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content h1, .fsPanel#fspanel-2323 .fsPanel-content .h1, .fsPanel#fspanel-2323 .fsPanel-content h2, .fsPanel#fspanel-2323 .fsPanel-content .h2, .fsPanel#fspanel-2323 .fsPanel-content h3, .fsPanel#fspanel-2323 .fsPanel-content .h3, .fsPanel#fspanel-2323 .fsPanel-content h4, .fsPanel#fspanel-2323 .fsPanel-content .h4, .fsPanel#fspanel-2323 .fsPanel-content h5, .fsPanel#fspanel-2323 .fsPanel-content .h5, .fsPanel#fspanel-2323 .fsPanel-content h6, .fsPanel#fspanel-2323 .fsPanel-content .h6 {
+    font-size: 1em;
+  }
+}
+</style>
+	<style>
+	
+.fsPanel#fspanel-2323 {
+  /*
+* Masquage des onglets dont on a pas le besoin
+*/
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper {
+  overflow: visible;
+  /*
+		* Tablette
+		*/
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .fsPanel-trigger {
+  position: absolute;
+  top: 1.25em;
+  left: 1.5em;
+  width: 2.5em;
+  height: 2.5em;
+  background: #fff;
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 200ms;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .fsPanel-trigger i {
+  font-weight: 100;
+  color: #5b35ca;
+  font-size: 18px;
+  transition: all ease-in-out 200ms;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .fsPanel-trigger:hover {
+  background: #f6d81f;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .fsPanel-trigger:hover i {
+  color: #5b35ca;
+  transform: rotate(90deg);
+  font-weight: 400;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper img {
+  max-width: 260px;
+  margin: auto;
+  display: block;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .navigation-du-haut .module_wrapper > ul {
+  margin-top: 2em;
+  border-top: 1px solid #ffffff40;
+  padding-top: 1em;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper > ul {
+  padding: 0;
+  width: fit-content;
+  margin: auto;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper > ul > li > a {
+  font-size: 1em;
+  margin-top: 1em;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li {
+  list-style-type: none;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li:nth-child(7), .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li:nth-child(8), .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li:nth-child(9) {
+  display: none;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li i.fa-caret-down {
+  margin-left: 1em;
+  transform: rotate(-90deg);
+  font-weight: bold;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li i:not(.fa-caret-down) {
+  margin-right: 1em;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li a {
+  text-decoration: none;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: 500;
+  align-items: center;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li a:before, .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li a:after {
+  display: none !important;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li a small {
+  display: block;
+}
+.fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper .module_wrapper ul li ul {
+  padding-left: 2em;
+  margin-top: 0.5em;
+  display: none;
+}
+@media screen and (min-width: 640px) {
+  .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper ul > li {
+    position: relative;
+    width: 200px;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper ul > li ul {
+    display: flex !important;
+    flex-flow: column;
+    position: absolute;
+    right: 0%;
+    top: 0;
+    transform: translateX(100%);
+    background: #4830A6;
+    border-radius: var(--border-radius);
+    padding: 1em;
+    opacity: 0%;
+    visibility: hidden;
+    transition: all ease-in-out 200ms;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper ul > li ul i.navbar-icon-dropdown {
+    display: none !important;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper ul > li ul li a {
+    display: flex;
+    flex-flow: column;
+  }
+  .fsPanel#fspanel-2323 .fsPanel-content-panel .fsPanel-content-wrapper ul > li:hover ul {
+    opacity: 100%;
+    visibility: visible;
+  }
+}
+.fsPanel#fspanel-2323 .main-cta, .fsPanel#fspanel-2323 .contactez-nous {
+  display: none !important;
+}
+	</style>
+		<div class="fsPanel-lazy-placeholder"></div>
+		<div class="bppContainer-backdrop">
+		<div class="bppContainer-wrapper">
+			<div class="bppContainer"></div>
+		</div>
+	</div>
+		<link rel="stylesheet" media="screen" href="/assets/hapi/dist/fa.css">
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.00.essentials.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.01.extra.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.02.intl-tel-input.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.10.bxslider.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.10.fancybox.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.10.vegas.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.20.hapi-core.css" />
+	<link rel="stylesheet" media="screen" href="/assets/hapi/dist/public.30.gmap-leaflet.css" />
+	<link rel="stylesheet" media="screen" href="/assets/dist/_c1133_css.css" />
+	
+	<!--HAPI-MOVE-TO-BOTTOM:CSS-->
+<style >
+				
+.tophat-bar[data-tophat-key="navbar-navigation-partie-du-bas"] {
+  padding-top: 1em;
+  padding-left: var(--custom-padding);
+  padding-right: var(--custom-padding);
+}
+				</style>
+<style data-src="Shortcode_Plugin_Service::CommonDependencies">
+			.hapi-service_cardlist {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				flex-wrap:wrap;
+				position:relative;
+				left:-1em;
+			}
+			.hapi-service_cardlist li {
+				margin: 0;
+				padding: 0;
+				display: flex;
+				grid-template-columns: min-content;
+				flex-wrap:wrap;
+				flex-direction: column;
+				--text-align: center;
+				width: 100%;
+				padding: 0.5em 0 0.3em 1em;
+			}
+			.hapi-service_cardlist li svg {
+				width: auto;
+			}
+			.hapi-service_cardlist li * {
+				padding-bottom: 0.2em;
+			}
+
+			.service-icon { grid-area: i; display: block; }
+			.service-name { grid-area: n; display: block; }
+			.service-description { grid-area: d; display: block; }
+
+			.hapi-service_cardlist[desktop-layout="hleft"],
+			.hapi-service_cardlist[desktop-layout="hright"] {
+				align-items:start;
+			}
+
+
+			@media screen and (min-width:1281px) {
+				.hapi-service_cardlist[desktop-columns="1"]  li { width: calc(100% / 1); }
+				.hapi-service_cardlist[desktop-columns="2"]  li { width: calc(100% / 2); }
+				.hapi-service_cardlist[desktop-columns="3"]  li { width: calc(100% / 3); }
+				.hapi-service_cardlist[desktop-columns="4"]  li { width: calc(100% / 4); }
+				.hapi-service_cardlist[desktop-columns="5"]  li { width: calc(100% / 5); }
+				.hapi-service_cardlist[desktop-columns="6"]  li { width: calc(100% / 6); }
+				.hapi-service_cardlist[desktop-columns="7"]  li { width: calc(100% / 7); }
+				.hapi-service_cardlist[desktop-columns="8"]  li { width: calc(100% / 8); }
+				.hapi-service_cardlist[desktop-columns="9"]  li { width: calc(100% / 9); }
+				.hapi-service_cardlist[desktop-columns="10"] li { width: calc(100% / 10); }
+
+				.hapi-service_cardlist[desktop-layout="vcenter"] { text-align: center; }
+				.hapi-service_cardlist[desktop-layout="vright"] { text-align: right; }
+				.hapi-service_cardlist[desktop-layout="hleft"] li { flex-direction: row; flex-wrap: unset; }
+				.hapi-service_cardlist[desktop-layout="hleft"] li .service-icon { margin-right: 0.5em; }
+				.hapi-service_cardlist[desktop-layout="hleft"] li .service-description { width: 100%;}
+				.hapi-service_cardlist[desktop-layout="hright"] li { flex-direction: row; flex-wrap: unset; direction:rtl; text-align: right; }
+				.hapi-service_cardlist[desktop-layout="hright"] li * { direction:ltr; }
+				.hapi-service_cardlist[desktop-layout="hright"] li .service-icon { margin-left: 0.5em; }
+				.hapi-service_cardlist[desktop-layout="hright"] li .service-description { width: 100%; }
+
+				.hapi-service_cardlist[desktop-layout="hleft"] li { display: grid; display: -ms-grid; grid-template-areas: "i n" "i d";  -ms-grid-columns:1fr 3fr; }
+				.hapi-service_cardlist[desktop-layout="hleft"] li .service-icon { -ms-grid-column:1; -ms-grid-row:1; -ms-grid-row-span:2; }
+				.hapi-service_cardlist[desktop-layout="hleft"] li .service-name { -ms-grid-column:2; -ms-grid-row:1; -ms-grid-row-span:1; }
+				.hapi-service_cardlist[desktop-layout="hleft"] li .service-description { -ms-grid-column:2; -ms-grid-row:2; -ms-grid-row-span:1; }
+
+				.hapi-service_cardlist[desktop-layout="hright"] li { display: grid; display: -ms-grid; grid-template-areas: "n i" "d i";  -ms-grid-columns:3fr 1fr; }
+				.hapi-service_cardlist[desktop-layout="hright"] li .service-icon { -ms-grid-column:2; -ms-grid-row:1; -ms-grid-row-span:2; }
+				.hapi-service_cardlist[desktop-layout="hright"] li .service-name { -ms-grid-column:1; -ms-grid-row:1; -ms-grid-row-span:1; }
+				.hapi-service_cardlist[desktop-layout="hright"] li .service-description { -ms-grid-column:1; -ms-grid-row:2; -ms-grid-row-span:1; }
+
+				.hapi-service_cardlist[desktop-alignment="left"] { justify-content: flex-start; }
+				.hapi-service_cardlist[desktop-alignment="center"] { justify-content: center; }
+				.hapi-service_cardlist[desktop-alignment="right"] { justify-content: flex-end; }
+			}
+			@media screen and (min-width:981px) and (max-width:1280px) {
+				.hapi-service_cardlist[tablet-columns="1"]  li { width: calc(100% / 1); }
+				.hapi-service_cardlist[tablet-columns="2"]  li { width: calc(100% / 2); }
+				.hapi-service_cardlist[tablet-columns="3"]  li { width: calc(100% / 3); }
+				.hapi-service_cardlist[tablet-columns="4"]  li { width: calc(100% / 4); }
+				.hapi-service_cardlist[tablet-columns="5"]  li { width: calc(100% / 5); }
+				.hapi-service_cardlist[tablet-columns="6"]  li { width: calc(100% / 6); }
+				.hapi-service_cardlist[tablet-columns="7"]  li { width: calc(100% / 7); }
+				.hapi-service_cardlist[tablet-columns="8"]  li { width: calc(100% / 8); }
+				.hapi-service_cardlist[tablet-columns="9"]  li { width: calc(100% / 9); }
+				.hapi-service_cardlist[tablet-columns="10"] li { width: calc(100% / 10); }
+
+				.hapi-service_cardlist[tablet-layout="vcenter"] { text-align: center; }
+				.hapi-service_cardlist[tablet-layout="vright"] { text-align: right; }
+				.hapi-service_cardlist[tablet-layout="hleft"] li { flex-direction: row; flex-wrap: unset; }
+				.hapi-service_cardlist[tablet-layout="hleft"] li .service-icon { margin-right: 0.5em; }
+				.hapi-service_cardlist[tablet-layout="hleft"] li .service-description { width: 100%;}
+				.hapi-service_cardlist[tablet-layout="hright"] li { flex-direction: row; flex-wrap: unset; direction:rtl; text-align: right; }
+				.hapi-service_cardlist[tablet-layout="hright"] li * { direction:ltr; }
+				.hapi-service_cardlist[tablet-layout="hright"] li .service-icon { margin-left: 0.5em; }
+				.hapi-service_cardlist[tablet-layout="hright"] li .service-description { width: 100%; }
+
+				.hapi-service_cardlist[tablet-layout="hleft"] li { display: grid; display: -ms-grid; grid-template-areas: "i n" "i d"; -ms-grid-columns:1fr 3fr; }
+				.hapi-service_cardlist[tablet-layout="hleft"] li .service-icon { -ms-grid-column:1; -ms-grid-row:1; -ms-grid-row-span:2; }
+				.hapi-service_cardlist[tablet-layout="hleft"] li .service-name { -ms-grid-column:2; -ms-grid-row:1; -ms-grid-row-span:1; }
+				.hapi-service_cardlist[tablet-layout="hleft"] li .service-description { -ms-grid-column:2; -ms-grid-row:2; -ms-grid-row-span:1; }
+
+				.hapi-service_cardlist[tablet-layout="hright"] li { display: grid; display: -ms-grid; grid-template-areas: "n i" "d i"; -ms-grid-columns:3fr 1fr; }
+				.hapi-service_cardlist[tablet-layout="hright"] li .service-icon { -ms-grid-column:2; -ms-grid-row:1; -ms-grid-row-span:2; }
+				.hapi-service_cardlist[tablet-layout="hright"] li .service-name { -ms-grid-column:1; -ms-grid-row:1; -ms-grid-row-span:1; }
+				.hapi-service_cardlist[tablet-layout="hright"] li .service-description { -ms-grid-column:1; -ms-grid-row:2; -ms-grid-row-span:1; }
+
+				.hapi-service_cardlist[tablet-alignment="left"] { justify-content: flex-start; }
+				.hapi-service_cardlist[tablet-alignment="center"] { justify-content: center; }
+				.hapi-service_cardlist[tablet-alignment="right"] { justify-content: flex-end; }
+			}
+			@media screen and (max-width:980px) {
+				.hapi-service_cardlist[mobile-columns="1"]  li { width: calc(100% / 1); }
+				.hapi-service_cardlist[mobile-columns="2"]  li { width: calc(100% / 2); }
+				.hapi-service_cardlist[mobile-columns="3"]  li { width: calc(100% / 3); }
+				.hapi-service_cardlist[mobile-columns="4"]  li { width: calc(100% / 4); }
+				.hapi-service_cardlist[mobile-columns="5"]  li { width: calc(100% / 5); }
+				.hapi-service_cardlist[mobile-columns="6"]  li { width: calc(100% / 6); }
+				.hapi-service_cardlist[mobile-columns="7"]  li { width: calc(100% / 7); }
+				.hapi-service_cardlist[mobile-columns="8"]  li { width: calc(100% / 8); }
+				.hapi-service_cardlist[mobile-columns="9"]  li { width: calc(100% / 9); }
+				.hapi-service_cardlist[mobile-columns="10"] li { width: calc(100% / 10); }
+
+				.hapi-service_cardlist[mobile-layout="vcenter"] { text-align: center; }
+				.hapi-service_cardlist[mobile-layout="vright"] { text-align: right; }
+				.hapi-service_cardlist[mobile-layout="hleft"] li { flex-direction: row; flex-wrap: unset; }
+				.hapi-service_cardlist[mobile-layout="hleft"] li .service-icon { margin-right: 0.5em; }
+				.hapi-service_cardlist[mobile-layout="hleft"] li .service-description { width: 100%;}
+				.hapi-service_cardlist[mobile-layout="hright"] li { flex-direction: row; flex-wrap: unset; direction:rtl; text-align: right; }
+				.hapi-service_cardlist[mobile-layout="hright"] li * { direction:ltr; }
+				.hapi-service_cardlist[mobile-layout="hright"] li .service-icon { margin-left: 0.5em; }
+				.hapi-service_cardlist[mobile-layout="hright"] li .service-description { width: 100%; }
+
+				.hapi-service_cardlist[mobile-layout="hleft"] li { display: grid; display: -ms-grid; grid-template-areas: "i n" "i d";  -ms-grid-columns:1fr 3fr; }
+				.hapi-service_cardlist[mobile-layout="hleft"] li .service-icon { -ms-grid-column:1; -ms-grid-row:1; -ms-grid-row-span:2; }
+				.hapi-service_cardlist[mobile-layout="hleft"] li .service-name { -ms-grid-column:2; -ms-grid-row:1; -ms-grid-row-span:1; }
+				.hapi-service_cardlist[mobile-layout="hleft"] li .service-description { -ms-grid-column:2; -ms-grid-row:2; -ms-grid-row-span:1; }
+
+				.hapi-service_cardlist[mobile-layout="hright"] li { display: grid; display: -ms-grid; grid-template-areas: "n i" "d i";  -ms-grid-columns:3fr 1fr; }
+				.hapi-service_cardlist[mobile-layout="hright"] li .service-icon { -ms-grid-column:2; -ms-grid-row:1; -ms-grid-row-span:2; }
+				.hapi-service_cardlist[mobile-layout="hright"] li .service-name { -ms-grid-column:1; -ms-grid-row:1; -ms-grid-row-span:1; }
+				.hapi-service_cardlist[mobile-layout="hright"] li .service-description { -ms-grid-column:1; -ms-grid-row:2; -ms-grid-row-span:1; }
+
+				.hapi-service_cardlist[mobile-alignment="left"] { justify-content: flex-start; }
+				.hapi-service_cardlist[mobile-alignment="center"] { justify-content: center; }
+				.hapi-service_cardlist[mobile-alignment="right"] { justify-content: flex-end; }
+			}
+			</style>
+<style >
+			.hapi-sc-countdown {
+				display: inline-block;
+			}
+
+			.hapi-countdown[data-theme="splitflap"] {
+				display: flex;
+				flex-direction: row;
+			}
+			.hapi-countdown[data-theme="splitflap"] .hapi-countdown-part{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 0 .5em;
+			}
+			.hapi-countdown[data-theme="splitflap"] .hapi-countdown-part strong {
+				order:2;
+				background: #020722;
+				border-radius:.25em;
+				padding:.5em;
+				box-shadow: 0px 2px 3px 1px rgba(68, 72, 90, 0.9) inset;
+				color:#fff;
+				position: relative;
+				display: block;
+			}
+			.hapi-countdown[data-theme="splitflap"] .hapi-countdown-part strong:before {
+				display: block;
+				position: absolute;
+				content: "\2000";
+				height: 0.2em;
+				top:calc(50% - 0.1em);
+				left:0;
+				width:calc(100% - 2px);
+				border-left:1px solid #fff;
+				border-right:1px solid #fff;
+			}
+			.hapi-countdown[data-theme="splitflap"] .hapi-countdown-part span{
+				order:1;
+				font-size:0.7em;
+				margin-bottom: 0.25em;
+				text-transform: uppercase;
+			}
+			</style>
+<style >
+</style>
+<style >
+</style>
+					
+				<script>
+				setTimeout(async function(){
+					function hapi_video_rgpd_cookie_consent() {
+						// forced acceptation (GDRP potential issue)
+
+						
+						if(ENV_CONFIG && ENV_CONFIG.rgpd_allow_video)
+							return true;
+
+						// external consent mode: the CMP drives HAPI.consent
+						if(window.HAPI && HAPI.consent)
+							return HAPI.consent.granted('analytics');
+
+						// read kalro consent cookie
+						var nameEQ = "klaro=";
+						var ca = document.cookie.split(';');
+						for(var i=0;i < ca.length;i++) {
+							var c = ca[i];
+							while (c.charAt(0)==' ') c = c.substring(1,c.length);
+							{
+								if (c.indexOf(nameEQ) == 0) {
+									var rgpd = JSON.parse(c.substring(nameEQ.length,c.length));
+									return rgpd && rgpd.app_analytics;
+								}
+							}
+						}
+
+						return false;
+					}
+
+					var videoRgpdWatcher = setInterval(function(){
+						if(hapi_video_rgpd_cookie_consent())
+						{
+							//console.log('videoRgpdWatcher OK');
+							var hapiVideoPlayer = document.querySelectorAll('hapi-video[gdpr]')
+							for(var i=0; i<hapiVideoPlayer.length; i++)
+							{
+								hapiVideoPlayer[i].removeAttribute('gdpr')
+							}
+						}
+					},1000)
+				},1000)
+				</script>
+				
+	<script src="/assets/hapi/dist/public.js"></script>
+
+	<!--HAPI-DEFERED-JS:START-->
+
+	<script async src="/assets/dist/_c1133_js.js"></script>
+		<script>
+	var fsPanelTriggerPreventRebounce = false;
+
+	HAPI_PageCycle.onLoad(function(){
+		$(document).on('click','.fsPanel-trigger',function(event){
+			if(fsPanelTriggerPreventRebounce)
+				return;
+			fsPanelTriggerPreventRebounce = true;
+
+			event.stopPropagation();
+			var $fspanel = $(this).parents('.fsPanel').eq(0);
+			var k = $fspanel.data('k');
+			var ctx_type = $fspanel.data("ctxType");
+			var ctx_code = $fspanel.data("ctxCode");
+			window.fspanel(k,'toggle',null,ctx_type,ctx_code,null);
+
+			setTimeout(function(){ fsPanelTriggerPreventRebounce = false }, 10);
+		})
+		$(document).on('click','.fsPanel-content',function(event){
+			event.stopPropagation();
+		})
+		$(document).on('click','.fsPanel-content-wrapper',function(event){
+			event.stopPropagation();
+		})
+		$(document).on('click','.fsPanel-backdrop',function(event){
+			window.fspanel_closeAll();
+			window.fspanel_close_burger();
+		})
+		// content panel is placed around the content wrapper and support the css animation
+		$(document).on('click','.fsPanel-content-panel',function(event){
+			window.fspanel_closeAll();
+			window.fspanel_close_burger();
+		})
+
+		var KEYCODE_ENTER = 13;
+		var KEYCODE_ESC = 27;
+
+		$(document).keyup(function(e) {
+			if (e.keyCode == KEYCODE_ENTER || e.keyCode == KEYCODE_ESC)
+			{
+				window.fspanel_closeAll();
+				window.fspanel_close_burger();
+			}
+		});
+
+		$(document).on('click','[fspanel-toggle]',function(event){
+			if(fsPanelTriggerPreventRebounce)
+				return;
+			fsPanelTriggerPreventRebounce = true;
+
+			console.log('fsPanel : Toogle Trigger',event);
+			var k = $(this).attr("fspanel-toggle");
+			var ctx_type = $(this).attr("fspanel-ctx-type");
+			var ctx_code = $(this).attr("fspanel-ctx-code");
+			var iframe_url = $(this).attr("fspanel-type")=='iframe' ? $(this).attr("href") : false;
+			window.fspanel(k,'toggle',null,ctx_type,ctx_code,iframe_url);
+
+			setTimeout(function(){ fsPanelTriggerPreventRebounce = false }, 10);
+		});
+		$(document).on('click','[fspanel-open]',function(event){
+			if(fsPanelTriggerPreventRebounce)
+				return;
+			fsPanelTriggerPreventRebounce = true;
+
+			var k = $(this).attr("fspanel-open");
+			var ctx_type = $(this).attr("fspanel-ctx-type");
+			var ctx_code = $(this).attr("fspanel-ctx-code");
+			var iframe_url = $(this).attr("fspanel-type")=='iframe' ? $(this).attr("href") : false;
+			window.fspanel(k,'open',null,ctx_type,ctx_code,iframe_url);
+
+			setTimeout(function(){ fsPanelTriggerPreventRebounce = false }, 10);
+		});
+		$(document).on('click','[fspanel-close]',function(event){
+			var k = $(this).attr("fspanel-close");
+			window.fspanel(k,'close',null,null,null,null);
+		});
+		$(document).on('click','.fsPanel-content-wrapper .fsPanel-content a',function(event){
+			var skip = false;
+			var panel = $(this).parents('.fsPanel').eq(0);
+
+			skip = skip || panel.find('.bx-wrapper').length>0
+			skip = skip || $(this).hasClass('bx-next')
+			skip = skip || $(this).hasClass('bx-prev')
+			skip = skip || $(this).parents('.bx-wrapper').length>0
+
+			if(""=="")
+			{
+				skip = skip || $(this).has('.BookingTrigger').length>0
+				skip = skip || $(this).has('.BookingBppTrigger').length>0
+				skip = skip || $(this).parents('.BookingTrigger').length>0
+				skip = skip || $(this).parents('.BookingBppTrigger').length>0
+			}
+			if(!skip)
+			{
+				window.fspanel(panel.attr('data-k'),'close',null,null,null,null);
+			}
+		});
+
+		setTimeout(function(){
+			window.fspanel_mark_as_ready($('.fsPanel'));
+		},1000);
+	})
+
+	window.fspanel_setActiveState = function(elements,active){
+		if(active)
+		{
+			elements.addClass('active');
+			elements.css({'pointer-events':'all'});
+		}
+		else
+		{
+			elements.removeClass('active');
+			elements.css({'pointer-events':''});
+		}
+	}
+
+	window.fspanel_closeAll = function(){
+
+		var els = $('.fsPanel.active');
+
+		var fsPanelEvent_closing = new CustomEvent("fsPanel.closing", { detail: { panels:  els } });
+		var fsPanelEvent_closed = new CustomEvent("fsPanel.closed", { detail: { panels:  els } });
+
+		window.dispatchEvent(fsPanelEvent_closing);
+
+		window.fspanel_setActiveState($('.fsPanel'),false);
+
+
+		$('.fspanel-active').removeClass('fspanel-active');
+		$('body').removeClass("fspanel-active");
+		$('body').removeAttr("fspanel");
+		$('[fspanel-toggle]').removeClass('fspanel-active');
+		$('[fspanel-open]').removeClass('fspanel-active');
+
+		$('.fsPanel iframe').each(function(){
+			var src = $(this).attr('src');
+			var src_org = $(this).attr('src_org');
+			if(!src_org)
+				$(this).attr('src_org',src);
+
+			//if(src.match(/(youtube|dailymotion|tube|vimeo|youtu)/))
+			if(src_org && src_org!=='null')
+				this.src = 'about:blank';
+		})
+
+		window.dispatchEvent(fsPanelEvent_closed);
+	}
+
+	window.fspanel_open_element = function(el,k)
+	{
+		var fsPanelEvent_opening = new CustomEvent("fsPanel.opening", { detail: { panels: [el] } } );
+		var fsPanelEvent_opened = new CustomEvent("fsPanel.opened", { detail: { panels: [el] } } );
+
+		window.dispatchEvent(fsPanelEvent_opening);
+
+		window.fspanel_setActiveState(el,true);
+
+		$('[fspanel-toggle="'+k+'"]').addClass('fspanel-active');
+		$('[fspanel-open="'+k+'"]').addClass('fspanel-active');
+		$('body').addClass("fspanel-active");
+		$('body').attr("fspanel",k);
+
+		el.find('iframe').each(function(){
+			var src_org = $(this).attr('src_org');
+			if(src_org && src_org!=='null' && src_org!=='about:blank')
+			{
+				this.src = src_org;
+			}
+		})
+
+		window.dispatchEvent(fsPanelEvent_opened);
+	}
+
+	window.fspanel_close_burger = function()
+	{
+		if(typeof window.tophat_burger_close == 'function')
+			window.tophat_burger_close();
+	}
+
+	window.fspanel_mark_as_ready = function(els)
+	{
+		$(els).filter('[data-status="loading"]').attr('data-status','init');
+		setTimeout(function(els){
+			$(els).filter('[data-status="init"]').attr('data-status','ready');
+		}.bind(null,els),1000)
+
+		var fsPanelEvent_ready = new CustomEvent("fsPanel.ready", { detail: { panels: els } });
+		window.dispatchEvent(fsPanelEvent_ready);
+	}
+
+	window.fspanel = function(k, action, lazy_action, ctx_type, ctx_code, iframe_url)
+	{
+		//console.log({ k, action, lazy_action, ctx_type, ctx_code, iframe_url });
+		lazy_action = lazy_action || null;
+		ctx_type = ctx_type || null;
+		ctx_code = ctx_code || null;
+
+		var action = action ? action:'open';
+		if(action=='search')
+		{
+			if(ctx_type!==null)
+				var el = $('#fspanel-'+k+'.fsPanel[data-ctx-type="'+ctx_type+'"][data-ctx-code="'+ctx_code+'"]');
+			else
+				var el = $('#fspanel-'+k+'.fsPanel[data-ctx-type=""]');
+
+			if(el.length>0)
+			{
+				//console.log('fspanel:search:1',el);
+				return el;
+			}
+
+			if(ctx_type!==null)
+				var el = $('.fsPanel[data-code="'+k+'"][data-ctx-type="'+ctx_type+'"][data-ctx-code="'+ctx_code+'"]');
+			else
+				var el = $('.fsPanel[data-code="'+k+'"][data-ctx-type=""]');
+
+			if(el.length>0)
+			{
+				//console.log('fspanel:search:2',el);
+				return el;
+			}
+
+			var newPanel = $('<div class="fsPanel-lazy-item"></div>');
+			$('.fsPanel-lazy-placeholder').append(newPanel);
+			console.log('fsPanel : try to load panel with key = '+k+'#'+ctx_type+':'+ctx_code+') (current action is "'+action+'" and lazyaction will be "'+lazy_action+'")');
+			newPanel.load(BASEPATH+ENV_LNG+'/ajax/fspanel?key='+k+'&ctx_type='+(ctx_type ? ctx_type:'')+'&ctx_code='+(ctx_code ? ctx_code:''),function(k,lazy_action,ctx_type,ctx_code,data){
+				if(data.trim()!='error')
+				{
+					console.log('fsPanel : loading success');
+					window.HAPI_RefreshJavascriptBehaviors();
+					AjaxFormCommonListenerBuilder();
+					window.fspanel_mark_as_ready(newPanel.find('.fsPanel'));
+					setTimeout(window.fspanel.bind(null,k,lazy_action,null,ctx_type,ctx_code,iframe_url),150);
+				}
+				else
+				{
+					console.log('fsPanel : loading fail');
+				}
+			}.bind(null,k,lazy_action,ctx_type,ctx_code));
+
+			return false;
+		}
+		else if(action=='toggle')
+		{
+			el = window.fspanel(k,'search','toggle',ctx_type,ctx_code,iframe_url);
+			if(el && el.hasClass('active'))
+			{
+				// close
+				window.fspanel_closeAll();
+				window.fspanel_close_burger();
+				return false;
+			}
+			else if(el)
+			{
+				if(iframe_url)
+				{
+					el.find('.fsPanel-iframe').attr('src','about:blank');
+					setTimeout(function(el,src){
+						//console.log({el,src})
+						el.find('.fsPanel-iframe').attr('src',src);
+					}.bind(null,el,iframe_url),10)
+				}
+
+				// close all currently opened panel
+				window.fspanel_closeAll();
+				window.fspanel_close_burger();
+				// then open the targeted one
+				setTimeout(function(el,k){
+					window.fspanel_open_element(el,k)
+				}.bind(null,el,k),100)
+
+				return true;
+			}
+			else
+			{
+				// try to load
+				window.fspanel_closeAll();
+				window.fspanel_close_burger();
+				return false;
+			}
+		}
+		else if(action=='open')
+		{
+			el = window.fspanel(k,'search','open',ctx_type,ctx_code);
+			if(el)
+			{
+				if(iframe_url)
+				{
+					el.find('.fsPanel-iframe').attr('src','about:blank');
+					setTimeout(function(el,src){
+						el.find('.fsPanel-iframe').attr('src',iframe_url);
+					}.bind(null,el,iframe_url))
+				}
+
+				// close all currently opened panel
+				window.fspanel_closeAll();
+				window.fspanel_close_burger();
+				// then open the targeted one
+				setTimeout(function(el,k){
+					window.fspanel_open_element(el,k)
+				}.bind(null,el,k),100)
+
+				return true;
+			}
+		}
+		else if(action=='close')
+		{
+			window.fspanel_closeAll();
+			window.fspanel_close_burger();
+			return false;
+		}
+	}
+	</script>
+	 			
+				<script>
+	// construction générique des écoutes d'évnèment sur les formulaires ajax
+	// à utiliser n'importe ou pour gérer un formulaire qui serait injecté après le chargement initiale
+	// dans un fspanel par exemple
+	var AjaxFormCommonListenerBuilder = function()
+	{
+		if(false)
+		{
+			CaptchaOnloadCallback()
+		}
+		else
+		{
+			AjaxFormEventListenerInit();
+		}
+	}
+
+	// basic event listener (recaptcha have a dedicated behavior)
+	var AjaxFormEventListenerInit = function(form){
+		var forms = [];
+		if(form)
+			forms = [form]
+		else
+			forms = document.querySelectorAll('form[data-ajax="true"]');
+
+		for(var i=0; i<forms.length; i++)
+		{
+			if(forms[i].getAttribute('ajax-listener-ready')!='true')
+			{
+				forms[i].setAttribute('ajax-listener-ready','true')
+				forms[i].addEventListener('submit', function(e)
+				{
+					e.preventDefault();
+					e.stopPropagation();
+					AjaxFormHandler(e.target)
+					e.target.setAttribute('data-ajax','ready');
+				});
+			}
+		}
+	}
+	var AjaxFormHandler = function(form)
+	{
+		form.classList.add('ajax-in-progress');
+		if(typeof fetch ==='function')
+		{
+			fetch(form.action, {
+				method: form.method,
+				body: new FormData(form)
+			}).then(function(result){
+				if(result.status===200)
+				{
+					result.text().then(function(resultContent){
+						AjaxFormSuccessCallback(form, resultContent );
+					})
+				}
+				else
+				{
+					AjaxFormFailureCallback(form);
+				}
+			}).catch(function(){
+				AjaxFormFailureCallback(form);
+			})
+		}
+		else
+		{
+			var request = new XMLHttpRequest();
+			request.open(form.method, form.action);
+			request.onload = function(oEvent) {
+				if (request.status == 200) {
+					AjaxFormSuccessCallback(form, request.response);
+			  	}
+				else {
+					AjaxFormFailureCallback(form);
+				}
+			};
+			request.onerror = function() {
+				AjaxFormFailureCallback(form);
+			};
+			request.send(new FormData(form));
+		}
+	}
+	var AjaxFormSuccessCallback = function(form,response)
+	{
+		form.insertAdjacentHTML('afterend', response);
+		var newForm = form.nextElementSibling;
+		var anchorId = form.id.replace(/^form_/,'');
+		form.parentNode.removeChild(form);
+		window.HAPI_RefreshJavascriptBehaviors();
+		AjaxFormCommonListenerBuilder();
+		AjaxFormCaptchaRenderInit(newForm);
+
+		// le récap d'erreurs (ou le message de succès) est en tête de formulaire, hors de vue après un clic sur le bouton
+		var anchor = document.getElementById(anchorId);
+		if(anchor)
+			anchor.scrollIntoView({behavior:'smooth', block:'start'});
+	}
+	// réponse inexploitable (503, réseau…) : on rend la main au lieu de laisser le formulaire bloqué
+	var AjaxFormFailureCallback = function(form)
+	{
+		form.classList.remove('ajax-in-progress');
+		form.dispatchEvent(new CustomEvent('ajaxform:failure'));
+
+		// le jeton hCaptcha a pu être consommé par le serveur : sans reset, le nouvel essai serait refusé
+		var captcha = form.querySelector('[data-hcaptcha-widget-id]');
+		if(captcha && typeof hcaptcha !== 'undefined')
+			hcaptcha.reset(captcha.getAttribute('data-hcaptcha-widget-id'));
+
+		var message = form.querySelector('.mod_form-ajax-failure');
+		if(!message)
+		{
+			message = document.createElement('div');
+			message.className = 'mod_form-text-error mod_form-ajax-failure';
+			message.textContent = "L'envoi n'a pas pu aboutir, merci de r\u00e9essayer";
+			form.insertBefore(message, form.querySelector('.form-container'));
+		}
+		message.scrollIntoView({behavior:'smooth', block:'center'});
+	}
+
+	// re-render hCaptcha widgets injected by an ajax form replacement: the <script> tag
+	// output by Captcha::html() is inert when parsed via insertAdjacentHTML/innerHTML,
+	// so the widget must be rendered explicitly through the already-loaded hcaptcha API.
+	var AjaxFormCaptchaRenderInit = function(scope, attempt)
+	{
+		if(!scope)
+			return;
+
+		if(typeof hcaptcha === 'undefined')
+		{
+			if((attempt||0) < 20) // retry while the async hcaptcha script finishes loading (~4s max)
+				setTimeout(function(){ AjaxFormCaptchaRenderInit(scope,(attempt||0)+1); }, 200);
+			return;
+		}
+
+		scope.querySelectorAll('.h-captcha:not(.h-captcha-ready)').forEach(function(el){
+			el.classList.add('h-captcha-ready');
+			hcaptcha.render(el, { sitekey: el.getAttribute('data-sitekey') });
+		});
+	}
+	</script>
+			<script>
+		HAPI_PageCycle.onLoad(function() {
+			AjaxFormEventListenerInit();
+		});
+		</script>
+		 	<script>
+	var BppHapiUUID = "";
+	var BppHapiComponent = null;
+	var BppHapiStays = {
+		checkin:null,
+		nights:1,
+		adults:2,
+		childs:0,
+		promo:null,
+		iata:null
+	};
+	window.BppCallback = function(){
+		HAPI_PageCycle.onLoad(function() {
+
+			// ---------------------------------------------------------------------------------
+			// Création de l'instance du widget
+			// ---------------------------------------------------------------------------------
+
+			function BookingBuilder(UUID)
+			{
+				UUID = UUID || null;
+				if(UUID!==null && UUID!=BppHapiUUID)
+				{
+					BppHapiUUID = UUID;
+					if(BppHapiComponent)
+					{
+						BppHapiComponent.dismount();
+						BppHapiComponent = false;
+					}
+				}
+				if(!BppHapiComponent)
+				{
+					//var now = new Date();
+					var now = new Date(2026,10,24);
+					var checkin = now.getFullYear()+'-'+(now.getMonth()+1)+'-'+now.getDate()+''
+					checkin = checkin.replace(/-([0-9])-/g,'-0$1-')
+					checkin = checkin.replace(/-([0-9])$/g,'-0$1')
+
+					// if(param.firstDateAvailable)
+					// checkin = null;
+
+					//console.log('....',checkin)
+					BppHapiComponent = window.BppFactory('.bppContainer',{
+						id:BppHapiUUID,
+						mindate:"2026-11-24",
+						checkin:checkin,
+						nights:BppHapiStays.nights,
+						adults:BppHapiStays.adults,
+						language:"fr",
+						currency:"EUR",
+						callback: BookingCallback,
+						callbook: BookingGo, // called when "book" button is pressed
+						onDateClick: DateClickCallback,
+						onClick: OverallClickCallback,
+						calendar: {
+							displayOnClick:0,
+							position:'left', //[left,right]
+						},
+						panel: {
+							bestrate:true,
+							form:{ // or true => full mode
+								checkin:true,
+								checkout:true,
+								nights:true,
+								adults:0,
+								childs:0,
+								promo:false,
+								iata:false,
+								submit:true
+							}
+						},
+						extrapanel:"",
+						theme:{
+							background: "",
+							background_calendar: "",
+							alt: "",
+							light: "",
+							dark: "",
+							status_unknown: "",
+							status_unavailable: "",
+							status_available: "",
+							status_bestrate: "",
+							status_last: ""
+						}
+					})
+				}
+			}
+			window.BppBookingBuilder = BookingBuilder;
+			BookingBuilder();
+
+			// ---------------------------------------------------------------------------------
+			// Ouverture/Fermeture du widget
+			// ---------------------------------------------------------------------------------
+
+			// on se greffe sur le click resa par défaut si c'est BP+ qui est actif
+			if(""=="")
+				$(document).on('click.bpp','.BookingTrigger, .BookingTrigger a',BookingBppTrigger);
+			// sinon on se contente des events dédié au BP+
+			$(document).on('click.bpp','.BookingBppTrigger, .BookingBppTrigger a',BookingBppTrigger);
+
+			$(document).on('click.bpp','.bppContainer-wrapper',function(event){
+				if(event.target == event.currentTarget)
+					BookingBppTrigger();
+			});
+
+			var bppContainerRealignTarget = null
+
+			window.LastBookingBppTriggerElement = null;
+			function BookingBppTrigger(event)
+			{
+				if(this && $(this).find('a').length>0)
+					return ;
+
+				var book_bpp_off_on_mobile = 0;
+				if($(window).width()<=980 && book_bpp_off_on_mobile)
+				{
+					BookingGo();
+				}
+				else
+				{
+					window.LastBookingBppTriggerElement = this;
+					if(!BppHapiComponent)
+						BookingBuilder();
+					if($('.bppContainer-backdrop').is(":visible"))
+					{
+						BookingHideContainer();
+					}
+					else
+					{
+						//console.log($(this).data('mode'));
+						if($(this).data('mode'))
+							BppHapiComponent.app.setMode($(this).data('mode'));
+						BookingShowContainer(event);
+					}
+				}
+			}
+			function BookingBppTriggerOpen(event)
+			{
+				window.LastBookingBppTriggerElement = this;
+				if(!BppHapiComponent)
+					BookingBuilder();
+				//console.log($(this).data('mode'));
+				if($(this).data('mode'))
+					BppHapiComponent.app.setMode($(this).data('mode'));
+				BookingShowContainer(event);
+			}
+			function BookingHideContainer(instant)
+			{
+				if(instant && instant==true)
+					$('.bppContainer-backdrop').hide();
+				else
+					$('.bppContainer-backdrop').fadeOut();
+				bppContainerRealignTarget = null;
+				//$('body').off('wheel.bppContainer mousewheel.bppContainer');
+			}
+
+			$(document).on('bpp.open',BookingBppTriggerOpen);
+			window.BookingPerformancePlus = {
+				openAt:function(at){
+					$(at).trigger('bpp.open');
+				},
+				close:function(instant){
+					BookingHideContainer(instant)
+				}
+			}
+
+			function BookingShowContainer(event)
+			{
+				var target = event ? event.target:null;
+
+				if(event)
+				{
+					event.preventDefault();
+					event.stopPropagation();
+				}
+
+				$('.bppContainer-backdrop').fadeIn();
+				if($(window).width()>960)
+				{
+					bppContainerRealignTarget = target;
+					RealignBppContainer();
+					//$('body').on('wheel.bppContainer mousewheel.bppContainer', function () { return false; });
+				}
+			}
+
+			var RealignBppContainerInterval = null
+			function fastRealignBppContainer()
+			{
+				RealignBppContainer();
+				clearInterval(RealignBppContainerInterval)
+				RealignBppContainerInterval = setInterval(RealignBppContainer,10);
+				setTimeout(slowRealignBppContainer,1000);
+			}
+			function slowRealignBppContainer()
+			{
+				RealignBppContainer();
+				clearInterval(RealignBppContainerInterval)
+				RealignBppContainerInterval = setInterval(RealignBppContainer,500);
+			}
+			fastRealignBppContainer();
+			$(document).on('scroll',fastRealignBppContainer);
+			$(window).on('resize',fastRealignBppContainer);
+
+			// ---------------------------------------------------------------------------------
+			// Appel de la redirection de réservation
+			// ---------------------------------------------------------------------------------
+
+			$(document).on('click','.BookingGo',BookingGo);
+
+			function BookingGo()
+			{
+				var book_in_frame= 0;
+				var book_in_self = 0;
+
+				var HIDX = null;
+				if($('.BookingInput[name=HIDX]').length>0)
+				{
+					HIDX = $('.BookingInput[name=HIDX]').val();
+					if(HIDX==='')
+					{
+						if($('form[data-booking-group="false"]').length>0)
+						{
+							$('form[data-booking-group="false"] select.BookingInput').addClass("missing");
+							BookingHideContainer(true);
+							return null;
+						}
+					}
+					$('form[data-booking-group="false"] select.BookingInput').removeClass("missing");
+				}
+
+				var rate = null;
+				if($('.BookingInput[name=rate]').length>0)
+					rate = $('.BookingInput[name=rate]').val();
+
+				var roomcode = null;
+				if($('.BookingInput[name=roomcode]').length>0)
+					roomcode = $('.BookingInput[name=roomcode]').val();
+
+				if(!book_in_frame)
+				{
+					window.open("/fr/book.html"
+						+ "?checkin=" + BppHapiStays.checkin
+						+ "&nights=" + BppHapiStays.nights
+						+ "&adults=" + BppHapiStays.adults
+						+ "&childs=" + BppHapiStays.childs
+						+ "&promo=" + BppHapiStays.promo
+						+ "&iata=" + BppHapiStays.iata
+						+ "&rate=" + rate
+						+ "&roomcode=" + roomcode
+						+ "&HIDX=" + HIDX
+						,
+						book_in_self ? "_self":"_blank"
+					);
+				}
+				else
+				{
+					document.location.href="/fr/book.html"
+						+ "?checkin=" + BppHapiStays.checkin
+						+ "&nights=" + BppHapiStays.nights
+						+ "&adults=" + BppHapiStays.adults
+						+ "&childs=" + BppHapiStays.childs
+						+ "&promo=" + BppHapiStays.promo
+						+ "&iata=" + BppHapiStays.iata
+						+ "&HIDX=" + HIDX
+						;
+				}
+			}
+
+			function RealignBppContainer()
+			{
+				if(bppContainerRealignTarget)
+				{
+					$( ".bppContainer" ).position({
+						of: $( bppContainerRealignTarget ),
+						my: "left bottom",
+						at: "left top",
+						collision: "flip flip",
+						using :function(obj){
+							$(this).css({
+								left: Math.floor(obj.left) + 'px',
+								top: Math.floor(obj.top) + 'px'
+							});
+						}
+					});
+				}
+			}
+
+			function OverallClickCallback()
+			{
+				RealignBppContainer();
+			}
+
+			function DateClickCallback(type)
+			{
+				$el = $(window.LastBookingBppTriggerElement);
+				if($el.data('on'+type)=='close')
+				{
+					BookingHideContainer();
+				}
+				else if($el.data('on'+type))
+				{
+					$elout = $($el.data('on'+type));
+					if($elout.length>0)
+					{
+						//console.log($elout);
+						BookingHideContainer(true);
+						$elout.trigger('click.bpp');
+					}
+				}
+			}
+
+			// ---------------------------------------------------------------------------------
+			// mise à jour des formulaires en cas de changement de séjours depuis le widget
+			// ---------------------------------------------------------------------------------
+			function BookingCallback(stayDatas)
+			{
+				BppHapiStays = stayDatas;
+
+				//console.log('BookingCallback',stayDatas);
+				$('.BookingInput[name=checkin]').val(stayDatas.checkin);
+				$('.BookingInput[name=checkout]').val(stayDatas.checkout);
+				$('.BookingInput[name=nights]').val(stayDatas.nights);
+				$('.BookingInput[name=adults]').val(stayDatas.adults);
+				$('.BookingInput[name=childs]').val(stayDatas.childs);
+				$('.BookingInput[name=promo]').val(stayDatas.promo);
+				$('.BookingInput[name=iata]').val(stayDatas.iata);
+
+				if(stayDatas.price)
+				{
+					$('.BookingBestPrice').html(stayDatas.price.text)
+					$('.BookingBestPrice-wrapper').fadeIn();
+				}
+				else
+				{
+					$('.BookingBestPrice').html('');
+					$('.BookingBestPrice-wrapper').fadeOut();
+				}
+				BookingInputLabelUpdate();
+			}
+
+			function BookingInputLabelUpdate()
+			{
+				var date = $('.BookingInput[name=checkin]').val();
+				if(date && date.match(/....-..-../) && $('.BookingInputCheckinLabel').length>0)
+				{
+					var d = date.split('-');
+					//console.log(d);
+					var event = new Date(Date.UTC(d[0], d[1]-1, d[2], 3, 0, 0));
+					var f = $('.BookingInputCheckinLabel').data('format');
+					if(f)
+						$('.BookingInputCheckinLabel').val(dateFormat(event,f));
+					else
+						$('.BookingInputCheckinLabel').val(event.toLocaleDateString());
+				}
+
+				var date = $('.BookingInput[name=checkout]').val();
+				if(date && date.match(/....-..-../) && $('.BookingInputCheckoutLabel').length>0)
+				{
+					var d = date.split('-');
+					//console.log(d);
+					var event = new Date(Date.UTC(d[0], d[1]-1, d[2], 3, 0, 0));
+					var f = $('.BookingInputCheckoutLabel').data('format');
+					if(f)
+						$('.BookingInputCheckoutLabel').val(dateFormat(event,f));
+					else
+						$('.BookingInputCheckoutLabel').val(event.toLocaleDateString());
+				}
+			}
+
+			// ---------------------------------------------------------------------------------
+			// mise à jour du widget à partir des formulaires
+			// ---------------------------------------------------------------------------------
+
+			$('.BookingInput[name=HIDX]').on('change', function() {
+				BookingInputLabelUpdate();
+				window.BppBookingBuilder($(this).find('option:selected').attr('data-hpe-uuid'));
+			});
+
+			$('.BookingInput[name=checkin]').on('change', function() {
+				BookingInputLabelUpdate();
+				if(BppHapiComponent)
+				{
+					if($('.BookingInput[name=nights]').length>0)
+						BppHapiComponent.app.setStay($('.BookingInput[name=checkin]').val(),null,$('.BookingInput[name=nights]').val());
+					else if($('.BookingInput[name=checkout]').length>0)
+						BppHapiComponent.app.setStay($('.BookingInput[name=checkin]').val(),$('.BookingInput[name=checkout]').val());
+				}
+			});
+			$('.BookingInput[name=nights]').on('change', function() {
+				BookingInputLabelUpdate();
+				if(BppHapiComponent)
+				{
+					BppHapiComponent.app.setStay($('.BookingInput[name=checkin]').val(),null,$('.BookingInput[name=nights]').val());
+				}
+			});
+			$('.BookingInput[name=checkout]').on('change', function() {
+				BookingInputLabelUpdate();
+				if(BppHapiComponent)
+				{
+					BppHapiComponent.app.setStay($('.BookingInput[name=checkin]').val(),$('.BookingInput[name=checkout]').val());
+				}
+			});
+			$('.BookingInput[name=adults]').on('change', function() {
+				if(BppHapiComponent)
+				{
+					BppHapiComponent.app.setState({adults:$('.BookingInput[name=adults]').val()});
+				}
+			});
+			$('.BookingInput[name=childs]').on('change', function() {
+				if(BppHapiComponent)
+				{
+					BppHapiComponent.app.setState({childs:$('.BookingInput[name=childs]').val()});
+				}
+			});
+			$('.BookingInput[name=promo]').on('change', function() {
+				if(BppHapiComponent)
+				{
+					BppHapiComponent.app.setState({promo:$('.BookingInput[name=promo]').val()});
+				}
+			});
+			$('.BookingInput[name=iata]').on('change', function() {
+				if(BppHapiComponent)
+				{
+					BppHapiComponent.app.setState({iata:$('.BookingInput[name=iata]').val()});
+				}
+			});
+		});
+	}
+	</script>
+	<script async src="https://www.hotelpricexplorer.com/bpp/index.php?factory=BppFactory&callback=BppCallback&hash=ac965884a0b75c0a6526ba4b97096598c72a1c719" async></script>
+	
+
+	<!--HAPI-MOVE-TO-BOTTOM:JS-->
+<script type="opt-in" data-type="application/javascript" data-name="app_analytics">
+HAPI_PageCycle.onLoad(function(){
+	console.log('Analytics event tracker');
+	var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3|mp4|jpe?g|gif|png)$/i;
+
+	$(document).on('click.analytics','a,[data-track-click],.BookingTrigger',function(event){
+
+		var href = $(this).attr('href');
+
+		if(this.hasAttribute('data-track-click')) {
+			//console.log('click on element with "data-track-click" attribute')
+			var track = $(this).attr('data-track-click').split('|');
+			gtag('event', track[1], {
+				'eventCategory': track[0],
+				'eventAction': track[1],
+				'eventLabel': track[2],
+			});
+		}
+		else if($(this).hasClass('BookingTrigger')) {
+			//console.log('click on .BookingTrigger element')
+			gtag('event', "Booking", {
+				'eventCategory': "Click",
+				'eventAction': "Booking",
+				'eventLabel': "Trigger",
+			});
+		}
+		else if (href &&  href.match(/\/book(\?[^?]*)?$/i)){
+			//console.log('click on booking engine link')
+			gtag('event', "Booking", {
+				'eventCategory': "Click",
+				'eventAction': "Booking",
+				'eventLabel': "Link",
+			});
+		}
+		else if (href && (href.match(/^https?\:/i)) && (!href.match(document.domain))){
+			//console.log('click on external link')
+			var extLink = href.replace(/^https?\:\/\//i, '');
+			//pageTracker._trackEvent('External', 'Click', extLink);
+			gtag('event', 'External', {
+				'eventCategory': 'Click',
+				'eventAction': 'External',
+				'eventLabel': extLink
+			});
+		}
+		else if (href &&  href.match(/^mailto\:/i)){
+			//console.log('click on mail link')
+			var mailLink = href.replace(/^mailto\:/i, '');
+			//pageTracker._trackEvent('Email', 'Click', mailLink);
+			gtag('event', 'Email', {
+				'eventCategory': 'Click',
+				'eventAction': 'Email',
+				'eventLabel': mailLink
+			});
+		}
+		else if (href &&  href.match(filetypes)){
+			//console.log('click on file link')
+			var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+			var filePath = href;
+			//pageTracker._trackEvent('Download', 'Click - ' + extension, filePath);
+			gtag('event', 'File:' + extension, {
+				'eventCategory': 'Click',
+				'eventAction': 'File:' + extension,
+				'eventLabel': filePath
+			});
+		}
+	});
+});
+</script>
+<script >
+
+function analytics_getData () {
+	let value = `; ${document.cookie}`;
+	let patterns = [...value.matchAll(/; (_ga(_[A-Z0-9]+)?)=([^;]+)/gi)];
+	var r = {};
+	for(var i=0; i<patterns.length; i++)
+	{
+		var p = patterns[i]
+		r[p[1]] = p[3];
+	}
+	return r;
+}
+
+function matomo_getVisitorId () {
+	// Le cookie Matomo a le format _pk_id.{site_id}
+	// La valeur a le format {visitor_id}.{timestamp}.{visit_count}...
+	let value = `; ${document.cookie}`;
+	let match = value.match(/; _pk_id\.[^=]+=([^.;]+)/);
+	if (match && match[1]) {
+		return match[1];
+	}
+	return null;
+}
+function analytics_form_decorator(form)
+{
+	if(!form.action)
+		return;
+
+    let url = null;
+
+    try {
+        url = new URL(form.action)
+    } catch (e) {
+        console.error('book.php:406 / analytics_form_decorator fail to parse URL',{url});
+        return;
+    }
+
+	if(window.google_tag_data && window.google_tag_data.glBridge)
+    {
+		var googleLinkerParam = window.google_tag_data.glBridge.generate(analytics_getData());
+		url.searchParams.set('_gl',googleLinkerParam)
+		form.action = url.href;
+
+		if(!form.elements._gl) {
+			var input = document.createElement('input');
+			input.type="hidden"
+			input.name="_gl"
+			form.appendChild(input);
+		}
+
+		form.elements._gl.value = googleLinkerParam;
+	}
+
+	// Ajouter le visitor ID Matomo si présent
+	var matomoVisitorId = matomo_getVisitorId();
+	if (matomoVisitorId) {
+		url.searchParams.set('pk_vid', matomoVisitorId);
+		form.action = url.href;
+
+		if(!form.elements.pk_vid)
+		{
+			var input = document.createElement('input');
+			input.type="hidden"
+			input.name="pk_vid"
+			form.appendChild(input);
+		}
+		form.elements.pk_vid.value = matomoVisitorId;
+	}
+}
+for(var i=0; i<document.forms.length; i++)
+{
+	var form = document.forms[i];
+	form.addEventListener('submit',function(event) {
+		var form = event.target;
+		analytics_form_decorator(form);
+		event.preventDefault();
+		event.stopPropagation();
+	})
+}
+
+	if(ENV_IE)
+	{
+		setTimeout(function(){
+			document.HPE_BOOK_FORM.submit();
+		},500);
+	}
+	else
+	{
+		(function () {
+			if ( typeof window.CustomEvent === "function" ) return false;
+			function CustomEvent ( event, params ) {
+				params = params || { bubbles: true, cancelable: true, detail: undefined };
+				var evt = document.createEvent(event);
+				evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+				return evt;
+			}
+			CustomEvent.prototype = window.Event.prototype;
+			window.CustomEvent = CustomEvent;
+		})();
+		setTimeout(function(){
+			var evt = new CustomEvent("submit", {"bubbles":true, "cancelable": true})
+			if(evt)
+				document.HPE_BOOK_FORM.dispatchEvent(evt);
+			setTimeout(function(){
+				analytics_form_decorator(document.HPE_BOOK_FORM);
+				document.HPE_BOOK_FORM.submit();
+			},500);
+		},500);
+	}
+	</script>
+<script >
+			HAPI_PageCycle.onLoad(function(){
+				setInterval(function(){
+					if($('.captcha-placholder:not(.ready)').length>0)
+					{
+						var els = $('.captcha-placholder');
+						els.addClass('ready');
+						els.each(function(){
+							var link = $(this).data('link');
+							$.get(link,function(data){
+								var uid = $(this).attr('id');
+								$('#'+uid).replaceWith(data);
+							}.bind(this));
+						});
+					}
+				},1000);
+			})
+			</script>
+<script type="text/template" id="shortcode-newsletter-template" >
+				<form class="form_newsletter" method="post">
+					<input name="action" type="hidden" value="newsletter_subscribe">
+					<input class="email" name="email" placeholder="Entrez votre E-mail" type="text" value="">
+										<button id="form_newsletter_submit" type="submit" class="submit_form"><span>Envoyer</span></button>
+				</form>
+			</script>
+<script >
+			HAPI_PageCycle.onLoad(function(){
+				$('.shortcode-newsletter-form-placeholder').each(function(){
+					// inject HTML form
+					$(this).html($('#shortcode-newsletter-template').html());
+
+					// Update form text
+					var button_label = $(this).attr('button-label')
+					if(button_label && button_label.length>0) $(this).find('.submit_form span').html(button_label);
+					var input_placeholder = $(this).attr('input-placeholder')
+					if(input_placeholder && input_placeholder.length>0) $(this).find('input[name="email"]').attr('placeholder',input_placeholder);
+
+					// bind event
+					$(this).find('form').on('submit',function(event){
+						event.preventDefault();
+						var self = this;
+						// on retire toutes les modals précédement créé
+						$('.shortcode-newsletter-form-placeholder form .modal_newsletter').remove();
+						// controle de l'e-mail
+						var mail = $(self).find('.email').val();
+						var regex = /\S+@\S+\.\S+/;
+						if(!regex.test(mail)){
+							$(self).addClass('error');
+							var modal = "<p class='modal_newsletter news_erreur'>Email invalide ou déja enregistré</p>";
+							$(self).append(modal);
+							setTimeout(function(){ $('.shortcode-newsletter-form-placeholder .modal_newsletter').fadeOut(); }, 3000);
+							return false;
+						}
+
+						if(typeof ga ==="function")
+						{
+							ga('send', 'pageview', '/newsletter-subscribe-success');
+						}
+
+						$.ajax({
+							url: "/ajax/newsletter.html?action=inscription_newsletter&email="+mail,
+							async: false
+						}).done(function(data){
+							var message = "";
+							var res = "";
+							if($.parseJSON(data).response == "ok"){
+								res = "ok";
+								$(self).removeClass('error');
+								message = "Merci de votre inscription \u00e0 notre newsletter";
+								$(self).find('.email').attr('disabled', 'disabled');
+							}
+							else{
+								res = "erreur";
+								$(self).addClass('error');
+								message = "Email invalide ou d\u00e9ja enregistr\u00e9";
+							}
+							modal = "<p class='modal_newsletter news_"+res+"'>"+message+"</p>";
+							$(self).append(modal);
+							setTimeout(function(){ $('.shortcode-newsletter-form-placeholder .modal_newsletter').fadeOut(); }, 3000);
+						});
+					});
+				});
+			});
+			</script>
+	
+
+<!-------- 🧭 Navigation | Design & ajustements de la navigation -------->
+<div class="custom-overlay"></div>
+
+
+        
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">	<!--HAPI-DEFERED-JS:END-->
+
+	<script>
+	HAPI_PageCycle.onLoad(async function(){
+		// CSS ressources defered injection (script preloads of the <head> must not be turned into stylesheets)
+		$('link[rel="preload"][as="style"]').each(function(){
+			var usedLaterStyle = document.createElement('link');
+			usedLaterStyle.rel = 'stylesheet';
+			usedLaterStyle.media = 'all';
+				usedLaterStyle.href = $(this).attr('href');
+				document.body.appendChild(usedLaterStyle)
+		})
+		setTimeout(function(){
+			document.querySelector('body').classList.add('loaded');
+			document.querySelector('body').classList.remove('loading');
+		},10)
+	})
+	</script>
+
+	<!--CRW-CONTENT:RM-->
+
+		<div class="HAPI-qrcode" onclick="$(this).find('img').toggle();">
+		<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAFACAIAAABC8jL9AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAJIklEQVR4nO3d0Y7bOBZF0cpg/v+Xex4CNBqZOF2ySfFue63ngixLOgnhI5I//vrrry+g6T+nTwB4ngBDmABDmABDmABDmABDmABDmABDmABDmABDmABD2H+/80c/fvzYfR6r/PbV7j+c/6VXwZ+4DlvP55Ebvu/WV+ivfu7Cvx/lOxfZ/8AQJsAQJsAQJsAQJsAQJsAQJsAQ9q0emKddrRwf/f20pcsuneepPvkTvBrgIzfgaio8Jc95dN2mvQix8P4mnud/MoSGMAGGMAGGMAGGMAGGMAGGsC098MKa4dS8U75uuT6Jnnzy8+xFjmtGTbgHQ2gIE2AIE2AIE2AIE2AIE2AI+4gaaXefGTp+6FT5jo8I8B+c6l13f+7uBc2nLaD/sQyhIUyAIUyAIUyAIUyAIUyAIezTa6RLQiVq4lRv+L5vPz3zIwJ8w12sPyjTetr0xtx3MoSGMAGGMAGGMAGGMAGGMAGGsI+okR5JlKX3mNajhi7dWVsCXC9FD9rdxy7pV1ftG/zEcY70w5OfZ0NoCBNgCBNgCBNgCBNgCBNgCHu1Rkr0dQP3uZ1z8Cc8cT7TeuZHpl3qf/XRL3J8LVrf+GBvOW3e7LTzeXuG0BAmwBAmwBAmwBAmwBAmwBD26TXSNBoXLvlWgKe17VddPf+B33fUKR3Z3Pjg309mCA1hAgxhAgxhAgxhAgxhAgxhW3rg0PS6SqOQ6IenneTu+77q+K9MlvYixyzvOp+28g9ljiE0hAkwhAkwhAkwhAkwhAkwhL1UIw2sN5ac0sLvNe0SXT2fVes5L9l59FSfv+om7ngYRvTAlX1iT1m1Hy/LHe+3DaEhTIAhTIAhTIAhTIAhTIAh7O4a6VSvuPs4q9hH9+zxp13nf7UrwEt62jfohxPn88i0f92+DgVs1Yfu6PMNoSFMgCFMgCFMgCFMgCFMgCFsxHTCrzfq5X4xra8e2AxdcuQ5WVhbLj/PlwK8al/WVf3wws9dcmOeSMupz11l6wN9w3sEOYbQECbAECbAECbAECbAECbAEPatGmn3/r33fPRbmnZ9Tq07veRkbviI5ac04kWOg33dpQdlWu99ql99dPzd9+vUWz2T+2RDaAgTYAgTYAgTYAgTYAgTYAj78Z2f5k/VORN+pr+Z6/Bnp67P2Nrs1R741DrD9Qd961LDA6/DtPPcfT635cIQGsIEGMIEGMIEGMIEGMIEGMJGTCf8GjCvcoK3/FI/TVvX+sil3vGh3wpwaHX1Vf1ben3m3fdr4PrYR0zIhSE0hAkwhAkwhAkwhAkwhAkwhL26LvS0n/vfdZ/hRy5931V1Dj/duQ/wI3e/yDFq/9hpKqver1ofe9XnHtx4YMnBzQeGDyXAECbAECbAECbAECbAEPZqjbR7Hm+lGdq6L26lV989PfMGWy/1uPnAA9M1bb/fUesPXz3OwPv7Wwfvy/EXXQyhIUyAIUyAIUyAIUyAIUyAIezV+cDTXD3Vaf3kkkv9xEF23+Ld/X9lJuZyW/YHftcNl1dZ1VtOE3pfYJqn768hNIQJMIQJMIQJMIQJMIQJMIRN2R/4qvQ+saukT36tU5di1Trkvz3Odw6yJcAD+8CtvfHAkja9v/HXsH2en/jc2xhCQ5gAQ5gAQ5gAQ5gAQ5gAQ1i1B77qVG98qp45tV73tEZtQtOz1UvrQl+1sB8+1ROOMnCd6u9/6BuY8L0MoSFMgCFMgCFMgCFMgCFMgCHs1XWh6/u4VhojvetPR77v5G1Hp7/IsXUf1zfYkPq3bjiZUf15ZZ3tHR9qCA1hAgxhAgxhAgxhAgxhAgxhr9ZIl/rJg/vWnpof+67q3/dIr76j1nppPvAHrhu826g++Qmj1lVe9dwOfP7/ZggNYQIMYQIMYQIMYQIMYQIMYdOnEz6ydV/WaW6YPrlV4iL/dGre9Zn9ga9+q1PpumH95FGBecKp/jl93SaU9obQECbAECbAECbAECbAECbAEPbqutBXHenTbjBtneoj+/2emu89bfnYOx/C6osclf5w1PxYfjrY3y5/bg2hIUyAIUyAIUyAIUyAIUyAIaxaI+1uXDQ6P73ldTg4LXT59XxpXehHpq2rvPtFlGnzlq+64X59Wh9+23sKhtAQJsAQJsAQJsAQJsAQJsAQVu2BK1btZLnEtHrm4H7Rp46/3JYAr3oKp83bPOWGk/monvZU376DITSECTCECTCECTCECTCECTCEvbou9Lv2lqf2if2tG+av1puhR3avs328Xvr0FznS84efcOT7hky7X//KEBrCBBjCBBjCBBjCBBjCBBjCXq2RJv/Czv87NZ+2Ui/t3q94uZfWhbae8E+Vp/MPjlznVdfthhddxt5iQ2gIE2AIE2AIE2AIE2AIE2AI+/Gd38eVvU+rTE+bVtelr9udNdurL3JMm9A/7UFc5eqDcioAleC9DUNoCBNgCBNgCBNgCBNgCBNgCPuIZWXfoMa4+hVOzWvdvQ4zv3hpPvBup/bFDc0XXdIPn/rcafPJH9m9S/sr18EQGsIEGMIEGMIEGMIEGMIEGMJe3R94mlN1zqlLVOl7Rz1C77Tf9Ue8yDF2Ud/5zO8dzhAawgQYwgQYwgQYwgQYwgQYwj6iRlJ7/C3d3w50/PqMXhf6kYNXbfe601vn9y6cr7v1c584ziUH3wtY3qsbQkOYAEOYAEOYAEOYAEOYAEPYlh54Yc2TmAm48PvW5/euWlF11X0/3tP+Yvn5fMSLHH+w+x+IafNpK+s5/9ajmxW6nssZQkOYAEOYAEOYAEOYAEOYAEPYp9dI9R5y2vzercefVup+DTiljwhwpT+8Sh/7tN397W0vIBlCQ5gAQ5gAQ5gAQ5gAQ5gAQ9hH1EgL58fm9o99UXrf44PHv+SVh+0jAvzG0n3yDd6m733EEBrCBBjCBBjCBBjCBBjCBBjC1EjXrGogPm3e7EdZtZ3qd2wJ8PFy7BerVht/Y4n9gZ84/qUPLd53Q2gIE2AIE2AIE2AIE2AIE2AIe7VGKv7y/rf0yQ80cN71kXndf2B/4Jvs7ie39q6cdWfPbAgNYQIMYQIMYQIMYQIMYQIMYT/0E9Dlf2AIE2AIE2AIE2AIE2AIE2AIE2AIE2AIE2AIE2AIE2AI+x/JNtkfB0UvgQAAAABJRU5ErkJggg==" alt="Quick Response Code">
+		<i class="fas fa-qrcode"></i>
+	</div>
+	<style>
+	.HAPI-qrcode {
+		z-index: 999999999999999;
+		font-size: 10px;
+		position:fixed;
+		bottom:1em;
+		left:0;
+		background: rgba(0,0,0,0.2);
+		padding:0 .3em 0 .1em;
+		color:#fff;
+		border-radius: 0 .5em .5em 0;
+		vertical-align: text-bottom;
+		cursor: pointer;
+	}
+	.HAPI-qrcode i {
+		opacity: 0.5;
+	}
+	.HAPI-qrcode img {
+		display: none;
+		position:absolute;
+		bottom: 0;
+		left: 2.5em;
+		max-width: calc(100vw - 5em);
+		border:1em solid rgba(0,0,0,0.3);
+		border-radius: .5em;
+		cursor: default;
+	}
+	</style>
+	
+	
+
+	<link async rel="stylesheet" media="screen" href="/assets/hapi/foobar-css.css" />
+
+	<script async src="/assets/hapi/foobar-js.js"></script>
+	<link rel="preload" as="style" media="screen" href="/assets/hapi/foobar-css.css" />
+
+				
+						
+						
+			
+				<script>
+	//https://github.com/jonnyhaynes/inline-svg/blob/master/dist/inlineSVG.min.js
+	!function(a,b){"function"==typeof define&&define.amd?define([],b(a)):"object"==typeof exports?module.exports=b(a):a.inlineSVG=b(a)}("undefined"!=typeof global?global:this.window||this.global,function(a){var b,c={},d=!!document.querySelector&&!!a.addEventListener,e={initClass:"js-inlinesvg",svgSelector:"img.svg"},f=function(a,b){return function(){if(--a<1)return b.apply(this,arguments)}},g=function(){var a={},b=!1,c=0,d=arguments.length;"[object Boolean]"===Object.prototype.toString.call(arguments[0])&&(b=arguments[0],c++);for(var e=function(c){for(var d in c)Object.prototype.hasOwnProperty.call(c,d)&&(b&&"[object Object]"===Object.prototype.toString.call(c[d])?a[d]=g(!0,a[d],c[d]):a[d]=c[d])};c<d;c++){e(arguments[c])}return a},h=function(){return document.querySelectorAll(b.svgSelector)},i=function(){return"_"+Math.random().toString(36).substr(2,9)},j=function(a){var c=h(),d=f(c.length,a);Array.prototype.forEach.call(c,function(a,c){var e=a.src||a.getAttribute("data-src"),f=a.attributes,g=new XMLHttpRequest;g.open("GET",e,!0),g.onload=function(){if(g.status>=200&&g.status<400){var c=new DOMParser,e=c.parseFromString(g.responseText,"text/xml"),h=e.getElementsByTagName("svg")[0];if(h.removeAttribute("xmlns:a"),h.removeAttribute("width"),h.removeAttribute("height"),h.removeAttribute("x"),h.removeAttribute("y"),h.removeAttribute("enable-background"),h.removeAttribute("xmlns:xlink"),h.removeAttribute("xml:space"),h.removeAttribute("version"),Array.prototype.slice.call(f).forEach(function(a){"src"!==a.name&&"alt"!==a.name&&"longdesc"!==a.name&&h.setAttribute(a.name,a.value)}),h.classList?h.classList.add("inlined-svg"):h.setAttribute("class",h.getAttribute("class")+" inlined-svg"),h.setAttribute("role","img"),f.alt){var j=document.createElementNS("http://www.w3.org/2000/svg","title"),k=document.createTextNode(f.alt.value);if(j.setAttribute("id",i()),j.appendChild(k),h.insertBefore(j,h.firstChild),f.id)h.setAttribute("aria-labelledby",f.id.value);else if(!f.id){var l=function(){if(h.getElementsByTagName("title").length>0){return h.getElementsByTagName("title")[0].getAttribute("id")}return""};h.setAttribute("aria-labelledby",l())}}if(f.alt||(h.setAttribute("aria-hidden","true"),h.setAttribute("role","presentation")),f.longdesc){var m=document.createElementNS("http://www.w3.org/2000/svg","desc"),n=document.createTextNode(f.longdesc.value);m.setAttribute("id",i()),m.appendChild(n),f.alt?h.insertBefore(m,h.firstChild.nextSibling):h.insertBefore(m,h.firstChild);var o=function(){if(h.getElementsByTagName("desc").length>0){return h.getElementsByTagName("desc")[0].getAttribute("id")}return""};if(f.alt){var p=h.getAttribute("aria-labelledby");h.setAttribute("aria-labelledby",p+=" "+o())}else h.setAttribute("aria-labelledby",o())}a.parentNode&&a.parentNode.replaceChild(h,a),d&&d(b.svgSelector)}else console.error("There was an error retrieving the source of the SVG.")},g.onerror=function(){console.error("There was an error connecting to the origin server.")},g.send()})};return c.init=function(a,c){d&&(b=g(e,a||{}),j(c||function(){}),document.documentElement.className+=" "+b.initClass)},c});
+
+	inlineSVG.init(
+		{
+			svgSelector: 'img[data-inline="true"]', // the class attached to all images that should be inlined
+			initClass: 'svg-inlined', // class added to the <html>
+		},
+		function () {
+			console.log('All SVGs inlined');
+		}
+	);
+	</script>
+	<script src="/assets/site/forms.js" defer></script>
+</body>
+</html>

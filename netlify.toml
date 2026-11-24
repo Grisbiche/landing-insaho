@@ -1,0 +1,20 @@
+# Configuration de l'hébergement Netlify
+[build]
+  publish = "site"
+  command = ""
+
+# Script chargé sans extension par le moteur du site
+[[headers]]
+  for = "/assets/hapi/helpers-js"
+  [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
+
+# Images, polices, styles et scripts : mis en cache par les navigateurs
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
