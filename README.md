@@ -42,6 +42,14 @@ adresse **bonjour@insaho.fr**, à faire pour chacun des deux formulaires (ou « 
 
 Chaque modification envoyée sur la branche principale de ce dépôt est mise en ligne automatiquement.
 
+## Aperçu sur GitHub Pages
+
+Le workflow `.github/workflows/github-pages.yml` publie un aperçu à chaque envoi sur
+`main` ou `copie-site-insaho`, à l'adresse https://grisbiche.github.io/landing-insaho/.
+Prérequis : *Settings > Pages > Build and deployment > Source : GitHub Actions*
+(sur un dépôt privé, GitHub Pages demande un abonnement payant ; sinon rendre le dépôt public).
+Les formulaires ne fonctionnent pas sur GitHub Pages : ils nécessitent Netlify.
+
 ## Tester en local
 
 ```bash

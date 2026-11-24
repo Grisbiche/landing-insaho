@@ -1,0 +1,35 @@
+# Aperçu du site sur GitHub Pages : https://<compte>.github.io/<dépôt>/
+# Le site étant écrit pour la racine d'un domaine (www.insaho.fr), on ajoute le
+# préfixe /<dépôt>/ aux adresses dans une copie avant publication.
+name: Aperçu GitHub Pages
+
+on:
+  push:
+    branches: [main, copie-site-insaho]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Préparer le site pour le sous-dossier /${{ github.event.repository.name }}/
+        run: python3 scripts/prefix_paths.py site _pages "/${{ github.event.repository.name }}"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _pages
+      - id: deployment
+        uses: actions/deploy-pages@v4
