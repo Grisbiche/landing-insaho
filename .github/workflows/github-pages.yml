@@ -5,7 +5,7 @@ name: Aperçu GitHub Pages
 
 on:
   push:
-    branches: [main, copie-site-insaho]
+    branches: [main]
   workflow_dispatch:
 
 permissions:

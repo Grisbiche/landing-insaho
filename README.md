@@ -20,6 +20,7 @@ hébergés ici : le site ne dépend plus de Hapi.
 | `site/assets/site/forms.js` | Envoi des formulaires |
 | `wrangler.jsonc` | Réglages de l'hébergement Cloudflare Workers |
 | `site/_headers`, `site/_redirects` | En-têtes et réécriture de la racine (Cloudflare) |
+| `CLAUDE.md` | Règles de travail lues par l'agent Claude (branche unique `main`) |
 | `netlify.toml` | Réglages de l'hébergement Netlify |
 | `scripts/` | Outils qui ont servi à la copie et aux contrôles |
 
@@ -61,7 +62,7 @@ Chaque modification envoyée sur la branche principale de ce dépôt est mise en
 ## Aperçu sur GitHub Pages
 
 Le workflow `.github/workflows/github-pages.yml` publie un aperçu à chaque envoi sur
-`main` ou `copie-site-insaho`, à l'adresse https://grisbiche.github.io/landing-insaho/.
+`main`, à l'adresse https://grisbiche.github.io/landing-insaho/.
 Prérequis : *Settings > Pages > Build and deployment > Source : GitHub Actions*
 (sur un dépôt privé, GitHub Pages demande un abonnement payant ; sinon rendre le dépôt public).
 Les formulaires ne fonctionnent pas sur GitHub Pages : ils nécessitent Netlify.
