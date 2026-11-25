@@ -18,6 +18,8 @@ hébergés ici : le site ne dépend plus de Hapi.
 | `site/media/…` | Images et documents PDF |
 | `site/assets/…` | Styles, polices et scripts |
 | `site/assets/site/forms.js` | Envoi des formulaires |
+| `wrangler.jsonc` | Réglages de l'hébergement Cloudflare Workers |
+| `site/_headers`, `site/_redirects` | En-têtes et réécriture de la racine (Cloudflare) |
 | `netlify.toml` | Réglages de l'hébergement Netlify |
 | `scripts/` | Outils qui ont servi à la copie et aux contrôles |
 
@@ -31,6 +33,20 @@ traités par **Netlify Forms** (formulaires `contact` et `newsletter`).
 Pour recevoir les messages par e-mail, dans Netlify :
 *Site configuration > Forms > Form notifications > Add notification > Email notification*,
 adresse **bonjour@insaho.fr**, à faire pour chacun des deux formulaires (ou « Any form »).
+
+## Mise en ligne (Cloudflare Workers)
+
+Les réglages sont dans `wrangler.jsonc` : le site statique du dossier `site/` est publié tel quel,
+avec les mêmes adresses en `.html` que l'ancien site.
+
+Dans Cloudflare, *Workers & Pages > le Worker > Settings > Build* :
+- **Branche de production** : `main`
+- **Build command** : vide
+- **Deploy command** : `npx wrangler deploy`
+- **Root directory** : `/`
+
+Le champ `name` de `wrangler.jsonc` doit être identique au nom du Worker dans Cloudflare.
+Les formulaires (Netlify Forms) ne fonctionnent pas sur Cloudflare.
 
 ## Mise en ligne (Netlify)
 

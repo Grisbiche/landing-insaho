@@ -1,0 +1,12 @@
+# En-têtes HTTP lus par Cloudflare (équivalent des [[headers]] de netlify.toml)
+
+# Script chargé sans extension par le moteur du site
+/assets/hapi/helpers-js
+  Content-Type: application/javascript; charset=utf-8
+
+# Images, polices, styles et scripts : mis en cache par les navigateurs
+/media/*
+  Cache-Control: public, max-age=604800
+
+/assets/*
+  Cache-Control: public, max-age=86400
